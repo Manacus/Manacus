@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <div class="container">
     <img src="Icono título.png" alt="Fundación Manacus" style="display:block; margin: 0 auto 1em auto; style="width: 500px; height: auto;;">
+  </div>
   <title>Fundación Manacus - Nuestro objetivo</title>
   <style>
     body {
