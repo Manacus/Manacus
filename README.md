@@ -547,7 +547,7 @@
     </div>
     <div class="elegir-section">
       <div class="elegir-img-container">
-        <img class="elegir-img" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=700&q=80" alt="Paisaje natural con aves y árboles">
+        <img class="elegir-img" src="https://drive.google.com/file/d/1qk3ICq9kLI3coiMaBoEz8ROF1uORoptj/view?usp=drive_link" alt="Paisaje natural con aves y árboles">
         <div class="elegir-bar"></div>
       </div>
       <div class="elegir-content">
