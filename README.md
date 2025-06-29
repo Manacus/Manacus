@@ -428,7 +428,7 @@
       Se ha constitutido la Fundación Manacus para promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad. 
        <div>
        <strong> Conoce más sobre la fundación</strong>  
-       <a href="https://drive.google.com/drive/folders/1CbhU2uk9KZeAq2XAYW3GV9nvNxB_VJUJ?usp=sharing">aquí</a>
+       <a href="/ManacusBosqueWebPage.jpg">aquí</a>
        </div>
     </div>
     <div class="desc">
