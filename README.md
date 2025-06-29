@@ -430,10 +430,6 @@
     <div class="desc">
       Esperamos fomentar, gestionar y ejecutar acciones de protección y conservación ambiental, mediante el uso de herramientas tecnológicas como sensores remotos, inteligencia artificial, y otras innovaciones para el monitoreo y manejo de ecosistemas.
     </div>
-    <div class="footer">
-      <span>Fundación Manacus</span>
-      <span>01</span>
-    </div>
     <div class="commit-section">
       <span class="commit-title">ESTAMOS</span>
       <span class="commit-subtitle">COMPROMETIDOS CON</span>
@@ -532,10 +528,7 @@
           <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3155777881</span>
         </div>
       </div>
-      <div class="footer">
-        <span>Fundación Manacus</span>
-        <span>04</span>
-      </div>
+
       <h2 class="equipo-title" style="margin-top:2.5em;">Equipo de trabajo</h2>
       <div class="miembro-block">
         <div class="miembro-nombre">ANGELA MARIA BARONA-CORTTÉS</div>
