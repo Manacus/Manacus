@@ -425,14 +425,12 @@
     <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
     <h1>Nuestro objetivo</h1>
     <div class="objetivo">
-      Se ha constitutido la Fundación Manacus para promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad. <strong> -> Conoce más sobre la fundación en negrilla</strong>  <a href=https://drive.google.com/drive/folders/1CbhU2uk9KZeAq2XAYW3GV9nvNxB_VJUJ?usp=sharing">aquí</a>. 
+      Se ha constitutido la Fundación Manacus para promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad. 
+      <strong> -> Conoce más sobre la fundación en negrilla</strong>  
+      <a href="https://drive.google.com/drive/folders/1CbhU2uk9KZeAq2XAYW3GV9nvNxB_VJUJ?usp=sharing">aquí</a> 
     </div>
     <div class="desc">
       Esperamos fomentar, gestionar y ejecutar acciones de protección y conservación ambiental, mediante el uso de herramientas tecnológicas como sensores remotos, inteligencia artificial, y otras innovaciones para el monitoreo y manejo de ecosistemas.
-    </div>
-    <div class="footer">
-      <span>Fundación Manacus</span>
-      <span>01</span>
     </div>
     <div class="commit-section">
       <span class="commit-title">ESTAMOS</span>
@@ -532,10 +530,7 @@
           <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3155777881</span>
         </div>
       </div>
-      <div class="footer">
-        <span>Fundación Manacus</span>
-        <span>04</span>
-      </div>
+
       <h2 class="equipo-title" style="margin-top:2.5em;">Equipo de trabajo</h2>
       <div class="miembro-block">
         <div class="miembro-nombre">ANGELA MARIA BARONA-CORTTÉS</div>
