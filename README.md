@@ -425,7 +425,7 @@
     <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
     <h1>Nuestro objetivo</h1>
     <div class="objetivo">
-      Promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad
+      Se ha constitutido la Fundación Manacus para promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad. <strong> -> Conoce más sobre la fundación en negrilla</strong>  <a href=https://drive.google.com/drive/folders/1CbhU2uk9KZeAq2XAYW3GV9nvNxB_VJUJ?usp=sharing">aquí</a>. 
     </div>
     <div class="desc">
       Esperamos fomentar, gestionar y ejecutar acciones de protección y conservación ambiental, mediante el uso de herramientas tecnológicas como sensores remotos, inteligencia artificial, y otras innovaciones para el monitoreo y manejo de ecosistemas.
