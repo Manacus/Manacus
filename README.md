@@ -561,6 +561,7 @@
           <li><strong>Enfoque interdisciplinario</strong> (ecología, acústica, ciencia de datos)</li>
           <li><strong>Compromiso</strong> con la conservación y las comunidades locales.</li>
           <li><b>Aliados estratégicos</b><br>
+              Biodiversity Analytics S.A.S.
               Red Ecoacústica Colombiana (REC)<br>
               Instituto Humboldt
           </li>
