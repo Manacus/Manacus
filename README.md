@@ -45,20 +45,15 @@
       font-weight: lighter;
     }
     .logo-img-placeholder {
-      width: 130px;
-      height: 110px;
+      width: 200px;
+      height: 200px;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #f4f4f4;
-      border: 2px dashed #19306c77;
-      border-radius: 13px;
-      color: #aaa;
       font-size: 1em;
       margin-left: 0.5em;
       margin-right: 0.7em;
       text-align: center;
-      box-sizing: border-box;
     }
     @media (max-width: 650px) {
       .logo-header { flex-direction: column; align-items: flex-start; gap: 1em; }
