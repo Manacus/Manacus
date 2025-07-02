@@ -419,7 +419,7 @@
       </div>
       <!-- Espacio reservado para imagen de logotipo/ave -->
       <div class="logo-img-placeholder">
-        Aquí va la imagen/logo<br>de la Fundación
+         <img src="/workspaces/Manacus/logo.png" alt="Logo Fundación Manacus">
       </div>
     </div>
     <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
