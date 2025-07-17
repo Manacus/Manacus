@@ -414,7 +414,7 @@
       </div>
       <!-- Espacio reservado para imagen de logotipo/ave -->
       <div class="logo-img-placeholder">
-         <img src="/workspaces/Manacus/logo.png" alt="Logo Fundación Manacus">
+         <img src="src/logo.png" alt="Logo Fundación Manacus">
       </div>
     </div>
     <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
@@ -545,7 +545,7 @@
     </div>
     <div class="elegir-section">
       <div class="elegir-img-container">
-        <img class="elegir-img" src="/workspaces/Manacus/ManacusBosqueWebPage.jpg" alt="Paisaje natural con aves y árboles">
+        <img class="elegir-img" src="src/ManacusBosqueWebPage.jpg" alt="Paisaje natural con aves y árboles">
         <div class="elegir-bar"></div>
       </div>
       <div class="elegir-content">
