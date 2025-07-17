@@ -414,7 +414,7 @@
       </div>
       <!-- Espacio reservado para imagen de logotipo/ave -->
       <div class="logo-img-placeholder">
-         <img src="/workspaces/Manacus/logo.png" alt="Logo Fundación Manacus">
+         <img src="src/logo.png" alt="Logo Fundación Manacus">
       </div>
     </div>
     <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
@@ -545,7 +545,7 @@
     </div>
     <div class="elegir-section">
       <div class="elegir-img-container">
-        <img class="elegir-img" src="/workspaces/Manacus/ManacusBosqueWebPage.jpg" alt="Paisaje natural con aves y árboles">
+        <img class="elegir-img" src="src/ManacusBosqueWebPage.jpg" alt="Paisaje natural con aves y árboles">
         <div class="elegir-bar"></div>
       </div>
       <div class="elegir-content">
@@ -578,7 +578,7 @@
   <div class="container" style="margin-top: 2.5em;">
     <h2 class="equipo-title">Proyectos</h2>
     <div class="desc">
-      Conoce más sobre nuestros proyectos destacados.
+      Conoce más sobre nuestros proyectos destacados
       <a href="projects/puertoTriunfo.html" target="_blank" style="display:inline-block;margin-top:1em;padding:0.6em 1.2em;background:#19306c;color:#fff;border-radius:8px;text-decoration:none;font-weight:bold;">Visitar proyecto Puerto Triunfo</a>
     </div>
   </div>
