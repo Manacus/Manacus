@@ -572,7 +572,7 @@
     </div>
   </div>
   <h1>Proyectos</h1>
-    <p><a href="puertoTriunfo.html">Visitar</a></p>
+    <p><a href="Proyectos/puertoTriunfo.html">Visitar</a></p>
   
 </body>
 </html>
