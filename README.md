@@ -571,7 +571,7 @@
       </div>
     </div>
   </div>
-  <h1>Bienvenido a pagina de proyecto</h1>
+  <h1>Proyectos</h1>
     <p><a href="puertoTriunfo.html">Visitar</a></p>
   
 </body>
