@@ -570,9 +570,18 @@
         </div>
       </div>
     </div>
+    <!-- SECCIÓN DE PROYECTOS -->
+    <div class="container" style="margin-top: 2.5em;">
+      <h2 class="equipo-title">Proyectos</h2>
+      <div class="desc">
+        Conoce más sobre nuestros proyectos destacados
+        <a href="projects/puertoTriunfo.html" target="_blank" style="display:inline-block;margin-top:1em;padding:0.6em 1.2em;background:#19306c;color:#fff;border-radius:8px;text-decoration:none;font-weight:bold;">Visitar proyecto Puerto Triunfo</a>
+    </div>
   </div>
-  <h1>Proyectos</h1>
-    <p><a href="proyectos/puertoTriunfo.html">Visitar</a></p>
-  
 </body>
+
 </html>
+
+
+
+  
