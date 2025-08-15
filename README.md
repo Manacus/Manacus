@@ -41,7 +41,7 @@
         <nav style="display:flex;gap:1em;flex-wrap:wrap;">
           <a href="services/servicios.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Servicios</a>
           <a href="projects/proyectos.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Proyectos</a>
-          <a href="equipo" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Tecnología</a>
+            <a href="tec.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Tecnología</a>
           <a href="quienes/quienes.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">¿Quiénes somos?</a>
           <a href="contacto/contacto.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Contacto</a>
         </nav>
