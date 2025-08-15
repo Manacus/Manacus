@@ -56,7 +56,7 @@
         <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3158542217</span>
       </div>
     </div>
-    <a href="../README.md" class="back-btn">← Volver a la página anterior</a>
+    <a href="../" class="back-btn">← Volver a la página anterior</a>
   </div>
 </body>
 </html>
