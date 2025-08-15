@@ -23,7 +23,7 @@
       <a class="proyecto-title">Sensores acústicos pasivos</a>
       <div class="proyecto-desc">Grabadoras automáticas para monitoreo de fauna</div>
     </div>
-    <a href="../README.md" class="back-btn">← Volver a la página anterior</a>
+    <a href="../" class="back-btn">← Volver a la página anterior</a>
   </div>
 </body>
 </html>

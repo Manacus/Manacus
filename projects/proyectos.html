@@ -24,7 +24,7 @@
       <div class="proyecto-desc">Conoce más sobre nuestros proyectos destacados y el impacto de nuestro trabajo en la conservación y monitoreo ambiental.</div>
       <a href="puertoTriunfo.html" target="_blank">Visitar proyecto Puerto Triunfo</a>
     </div>
-    <a href="../README.md" class="back-btn">← Volver a la página anterior</a>
+    <a href="../" class="back-btn">← Volver a la página anterior</a>
   </div>
 </body>
 </html>

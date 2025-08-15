@@ -29,7 +29,7 @@
         <span class="contacto-link"><span class="contacto-icon">📞</span> +57 3155777881</span>
       </div>
     </div>
-    <a href="../README.md" class="back-btn">← Volver a la página anterior</a>
+    <a href="../" class="back-btn">← Volver a la página anterior</a>
   </div>
 </body>
 </html>
