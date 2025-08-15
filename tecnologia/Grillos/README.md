@@ -129,6 +129,14 @@
       <h2>Adquiérelos o solicita soporte técnico</h2>
       <p>Contacta al equipo desarrollador para comprarlos o asistencia técnica escribiendo al número de <a href="https://wa.me/573182738651" style="color:#7be87b;font-weight:bold;text-decoration:none;font-size:1.13em;" target="_blank">WhatsApp: +57 318 2738651</a></p>
     </section>
+    <section id="blog-comentarios" style="background:rgba(0,0,0,0.85);border-radius:14px;box-shadow:0 1px 10px #00000044;padding:2em;margin-bottom:2em;margin-top:2em;max-width:900px;margin-left:auto;margin-right:auto;">
+      <h2 style="color:#7be87b;font-size:1.5em;margin-bottom:1em;">Blog de comentarios</h2>
+      <p style="color:#e0e0e0;font-size:1.13em;">¿Tienes dudas, sugerencias o quieres compartir tu experiencia? Déjanos tu comentario en el siguiente formulario y lo abordaremos aquí:</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4NiZ8JfTC9KQMdadXNc920cEf2aMV2ISSf42PrF-RB2xQog/viewform?usp=sharing&ouid=109877167667955358409" target="_blank" style="display:inline-block;padding:1em 2em;background:#7be87b;color:#222;border-radius:10px;font-size:1.08em;font-weight:bold;text-decoration:none;box-shadow:0 1px 8px #00000022;transition:background 0.2s;">Dejar comentario</a>
+      <div style="margin-top:2em;color:#e0e0e0;font-size:1em;">
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQwKkQw/pubhtml?gid=851555038&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400" style="border:none;background:#fff;border-radius:8px;"></iframe>
+      </div>
+    </section>
   </div>
 </body>
 </html>
