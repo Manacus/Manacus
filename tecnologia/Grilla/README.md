@@ -89,7 +89,7 @@
     <a href="#inicio">Grillos</a>
     <a href="#sobre">Firmware</a>
     <a href="#galeria">GrillApp</a>
-    <a href="#contacto">Adquierelos</a>
+    <a href="#contacto">Adquiérelos</a>
   </nav>
   <div class="main-content">
     <section id="inicio">
@@ -126,7 +126,7 @@
       </div>
     </section>
     <section id="contacto">
-      <h2>Adquierelos o solicita soporte técnico</h2>
+      <h2>Adquiérelos o solicita soporte técnico</h2>
       <p>Contacta al equipo desarrollador para comprarlos o asistencia técnica escribiendo al número de <a href="https://wa.me/573182738651" style="color:#7be87b;font-weight:bold;text-decoration:none;font-size:1.13em;" target="_blank">WhatsApp: +57 318 2738651</a></p>
     </section>
   </div>
