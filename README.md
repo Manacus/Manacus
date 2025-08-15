@@ -40,10 +40,10 @@
   <!-- Logo removido de la cabecera -->
         <nav style="display:flex;gap:1em;flex-wrap:wrap;">
           <a href="services/" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Servicios</a>
-          <a href="projects/proyectos.html" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Proyectos</a>
+          <a href="projects/" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Proyectos</a>
           <a href="tecnologia/" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Tecnología</a>
-          <a href="quienes/quienes.html" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">¿Quiénes somos?</a>
-          <a href="contacto/contacto.html" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Contacto</a>
+          <a href="quienes/" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">¿Quiénes somos?</a>
+          <a href="contacto/" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Contacto</a>
         </nav>
       </div>
     </header>
