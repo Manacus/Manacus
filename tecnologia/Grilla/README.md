@@ -93,11 +93,18 @@
   </nav>
   <div class="main-content">
     <section id="inicio">
-      <h1>GRILLA</h1>
-      <p>Sensores acústicos pasivos diseñados para estudiar la biodiversidad a partir de la grabación de sonidos ambientales.</p>
-      <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:center;">
-        <a href="#manual" class="buttons">Manual de operación</a>
-        <a href="#ficha" class="buttons">Ficha técnica</a>
+      <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:2em;">
+        <div style="flex:1;">
+          <h1>GRILLA</h1>
+          <p>Sensores acústicos pasivos diseñados para estudiar la biodiversidad a partir de la grabación de sonidos ambientales.</p>
+          <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:center;">
+            <a href="#manual" class="buttons">Manual de operación</a>
+            <a href="#ficha" class="buttons">Ficha técnica</a>
+          </div>
+        </div>
+        <div style="width:220px;min-height:120px;display:flex;align-items:center;justify-content:center;background:rgba(32,46,80,0.08);border-radius:12px;">
+          <!-- Espacio para imagen de Grilla -->
+        </div>
       </div>
     </section>
     <section id="sobre">
@@ -105,8 +112,15 @@
       <p>Software para funcionamiento de la grabadora. Descarga la version más reciente aquí: <a>v1.0.0</a></p>
     </section>
     <section id="galeria">
-      <h2>GrillApp</h2>
-      <p>Aplicacion android para configuración de dispositivos. Descargala en la <a>Playstore</a>.</p>
+      <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:2em;">
+        <div style="flex:1;">
+          <h2>GrillApp</h2>
+          <p>Aplicacion android para configuración de dispositivos. Descargala en la <a>Playstore</a>.</p>
+        </div>
+        <div style="width:220px;min-height:120px;display:flex;align-items:center;justify-content:center;background:rgba(32,46,80,0.08);border-radius:12px;">
+          <!-- Espacio para imagen de GrillApp -->
+        </div>
+      </div>
     </section>
     <section id="contacto">
       <h2>Contacto</h2>
