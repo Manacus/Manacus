@@ -1,4 +1,3 @@
-<!-- Landing page: ¿Quiénes somos? -->
 <html lang="es">
 <head>
   <meta charset="UTF-8">

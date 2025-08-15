@@ -1,4 +1,3 @@
-<!-- Landing page: Servicios -->
 <html lang="es">
 <head>
   <meta charset="UTF-8">

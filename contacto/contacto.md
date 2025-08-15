@@ -1,4 +1,3 @@
-<!-- Landing page: Contacto -->
 <html lang="es">
 <head>
   <meta charset="UTF-8">
