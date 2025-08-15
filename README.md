@@ -103,6 +103,9 @@
             Instituto Humboldt</li>
       </ul>   
   </div>
+  <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
+    Hacemos parte de la REC
+  </footer>
 </body>
 </html>
 

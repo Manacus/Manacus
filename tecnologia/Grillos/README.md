@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Grilla</title>
+  <title>Grillos</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -86,10 +86,10 @@
 <body>
   <div class="overlay"></div>
   <nav>
-    <a href="#inicio">Grillos</a>
-    <a href="#sobre">Firmware</a>
-    <a href="#galeria">GrillApp</a>
-    <a href="#contacto">Adquiérelos</a>
+  <a href="#inicio">Grillos</a>
+  <a href="#sobre">Firmware</a>
+  <a href="#galeria">GrillApp</a>
+  <a href="#contacto">Adquiérelos</a>
   </nav>
   <div class="main-content">
     <section id="inicio">
@@ -103,13 +103,13 @@
           </div>
         </div>
         <div style="width:220px;min-height:120px;display:flex;align-items:center;justify-content:center;background:rgba(32,46,80,0.08);border-radius:12px;">
-          <img src="src/GrabadoraWeb.png" alt="Grilla sensor" style="max-width:200px;width:100%;height:auto;display:block;">
+          <img src="src/GrabadoraWeb.png" alt="Grillos sensor" style="max-width:200px;width:100%;height:auto;display:block;">
         </div>
       </div>
     </section>
     <section id="sobre">
       <h2>Firmware</h2>
-      <p>Software para funcionamiento de los grillos. Descarga la version más reciente aquí: <a href="src/audio_recorder.uf2">v1.0.0</a></p>
+      <p>Programa de funcionamiento para los grillos. Descarga la version más reciente aquí: <a href="src/audio_recorder.uf2">v1.0.0</a></p>
       <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:left;">
             <a href="https://docs.google.com/document/d/1kwLbPUh7tB_ICO8ptXz6Q2vYcHChcv4enA8AXWpYvIY/edit?usp=sharing" class="buttons">Manual de instalación</a>
       </div>
@@ -121,7 +121,7 @@
           <p>Aplicacion android para configuración de dispositivos. Descargala en la <a href="https://play.google.com/apps/internaltest/4701477267970862944">Playstore</a>.</p>
         </div>
       <div style="display:flex;">
-          <img src="src/GrillaHoo-03.png" alt="Grilla sensor" style="max-width:100px;width:100%;height:auto;display:block;">
+          <img src="src/GrillaHoo-03.png" alt="Grillos sensor" style="max-width:100px;width:100%;height:auto;display:block;">
         </div>
       </div>
     </section>
