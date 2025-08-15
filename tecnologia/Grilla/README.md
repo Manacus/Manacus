@@ -121,7 +121,7 @@
           <p>Aplicacion android para configuración de dispositivos. Descargala en la <a>Playstore</a>.</p>
         </div>
       <div style="display:flex;">
-          <img src="src/iconoGrillApp.png" alt="Grilla sensor" style="max-width:100px;width:100%;height:auto;display:block;">
+          <img src="src/GrillaHoo-03.png" alt="Grilla sensor" style="max-width:100px;width:100%;height:auto;display:block;">
         </div>
       </div>
     </section>
