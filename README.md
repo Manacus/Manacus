@@ -73,7 +73,7 @@
   <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
   <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
-      <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;">
+      <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
     </div>
     <h2>NUESTRO OBJETIVO</h2>
         <strong style="color:#19306c;">Promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad.</strong>
