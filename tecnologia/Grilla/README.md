@@ -74,7 +74,7 @@
       font-size: 1.13em;
       color: #e0e0e0;
     }
-    a{
+    .buttons{
       display:inline-block; padding:1em 2em; background:#222; color:#7be87b; border-radius:10px; font-size:1.08em; font-weight:bold; text-decoration:none; box-shadow:0 1px 8px #00000022; transition:background 0.2s; 
     }
     @media (max-width: 600px) {
@@ -97,8 +97,8 @@
       <h1>GRILLA</h1>
       <p>Sensores acústicos pasivos diseñados para estudiar la biodiversidad a partir de la grabación de sonidos ambientales.</p>
       <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap;">
-        <a href="#manual">Manual de operación</a>
-        <a href="#ficha">Ficha técnica</a>
+        <a href="#manual" class="buttons">Manual de operación</a>
+        <a href="#ficha" class="buttons">Ficha técnica</a>
       </div>
     </section>
     <section id="sobre">
