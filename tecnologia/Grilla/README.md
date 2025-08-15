@@ -95,20 +95,18 @@
     <section id="inicio">
       <h1>GRILLA</h1>
       <p>Sensores acústicos pasivos diseñados para estudiar la biodiversidad a partir de la grabación de sonidos ambientales.</p>
-      <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap;">
+      <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:center;">
         <a href="#manual" class="buttons">Manual de operación</a>
         <a href="#ficha" class="buttons">Ficha técnica</a>
       </div>
-      <h2>Firmware</h2>
-      <p>Esta sección puede contener información sobre el propósito de la página, el equipo o la misión del proyecto.</p>
     </section>
     <section id="sobre">
       <h2>Firmware</h2>
-      <p>Esta sección puede contener información sobre el propósito de la página, el equipo o la misión del proyecto.</p>
+      <p>Software para funcionamiento de la grabadora. Descarga la version más reciente aquí: <a>v1.0.0</a></p>
     </section>
     <section id="galeria">
       <h2>GrillApp</h2>
-      <p>Aquí puedes mostrar imágenes, proyectos o cualquier contenido visual relevante.</p>
+      <p>Aplicacion android para configuración de dispositivos. Descargala en la <a>Playstore</a>.</p>
     </section>
     <section id="contacto">
       <h2>Contacto</h2>
