@@ -120,7 +120,7 @@
           <h2>GrillApp</h2>
           <p>Aplicacion android para configuración de dispositivos. Descargala en la <a>Playstore</a>.</p>
         </div>
-        <div style="width:100px;min-height:120px;display:flex;align-items:center;justify-content:center;">
+      <div style="display:flex;">
           <img src="src/iconoGrillApp.png" alt="Grilla sensor" style="max-width:100px;width:100%;height:auto;display:block;">
         </div>
       </div>
