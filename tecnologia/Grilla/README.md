@@ -17,7 +17,7 @@
     }
     .overlay {
       background: rgba(0, 0, 0, 0.85);
-      min-height: 100vh;
+      min-height: 400vh;
       width: 100%;
       position: absolute;
       top: 0;
@@ -74,6 +74,9 @@
       font-size: 1.13em;
       color: #e0e0e0;
     }
+    a{
+      display:inline-block; padding:1em 2em; background:#222; color:#7be87b; border-radius:10px; font-size:1.08em; font-weight:bold; text-decoration:none; box-shadow:0 1px 8px #00000022; transition:background 0.2s; 
+    }
     @media (max-width: 600px) {
       .main-content { padding: 24px 6px; }
       nav a { font-size: 1em; margin: 0 0.7em; }
@@ -84,22 +87,26 @@
 <body>
   <div class="overlay"></div>
   <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#galeria">Galería</a>
+    <a href="#inicio">GRILLA</a>
+    <a href="#sobre">Firmware</a>
+    <a href="#galeria">GrillApp</a>
     <a href="#contacto">Contacto</a>
   </nav>
   <div class="main-content">
     <section id="inicio">
-      <h1>Nature Punk</h1>
-      <p>Bienvenido a una página genérica inspirada en el estilo visual de Nature Punk. Explora las secciones y disfruta del diseño moderno y natural.</p>
+      <h1>GRILLA</h1>
+      <p>Sensores acústicos pasivos diseñados para estudiar la biodiversidad a partir de la grabación de sonidos ambientales.</p>
+      <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap;">
+        <a href="#manual">Manual de operación</a>
+        <a href="#ficha">Ficha técnica</a>
+      </div>
     </section>
     <section id="sobre">
-      <h2>Sobre</h2>
+      <h2>Firmware</h2>
       <p>Esta sección puede contener información sobre el propósito de la página, el equipo o la misión del proyecto.</p>
     </section>
     <section id="galeria">
-      <h2>Galería</h2>
+      <h2>GrillApp</h2>
       <p>Aquí puedes mostrar imágenes, proyectos o cualquier contenido visual relevante.</p>
     </section>
     <section id="contacto">
