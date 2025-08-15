@@ -62,7 +62,7 @@
         <li>Desarrollo de guías metodológicas y manuales técnicos.</li>
       </ul>
     </div>
-    <a href="../README.md" class="back-btn">← Volver a la página anterior</a>
+    <a href="../" class="back-btn">← Volver a la página anterior</a>
   </div>
 </body>
 </html>
