@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nature Punk - Página Genérica</title>
+  <title>Grilla</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -100,6 +99,8 @@
         <a href="#manual" class="buttons">Manual de operación</a>
         <a href="#ficha" class="buttons">Ficha técnica</a>
       </div>
+      <h2>Firmware</h2>
+      <p>Esta sección puede contener información sobre el propósito de la página, el equipo o la misión del proyecto.</p>
     </section>
     <section id="sobre">
       <h2>Firmware</h2>
