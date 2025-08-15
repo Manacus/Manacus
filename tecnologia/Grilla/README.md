@@ -109,7 +109,7 @@
     </section>
     <section id="sobre">
       <h2>Firmware</h2>
-      <p>Software para funcionamiento de los grillos. Descarga la version más reciente aquí: <a>v1.0.0</a></p>
+      <p>Software para funcionamiento de los grillos. Descarga la version más reciente aquí: <a href="src/audio_recorder.uf2">v1.0.0</a></p>
       <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:left;">
             <a href="https://docs.google.com/document/d/1kwLbPUh7tB_ICO8ptXz6Q2vYcHChcv4enA8AXWpYvIY/edit?usp=sharing" class="buttons">Manual de instalación</a>
       </div>
@@ -126,7 +126,7 @@
       </div>
     </section>
     <section id="contacto">
-      <h2>Adquierelos</h2>
+      <h2>Adquierelos o solicita soporte técnico</h2>
       <p>Contacta al equipo desarrollador para comprarlos o asistencia técnica escribiendo al número de <a href="https://wa.me/573182738651" style="color:#7be87b;font-weight:bold;text-decoration:none;font-size:1.13em;" target="_blank">WhatsApp: +57 318 2738651</a></p>
     </section>
   </div>
