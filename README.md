@@ -4,6 +4,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fundación Manacus </title>
   <style>
+    .header-manacus {
+      width: 100%;
+      background: #19306c;
+      box-shadow: 0 2px 12px rgba(32,46,80,0.07);
+      padding: 0.5em 0 0.5em 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
     body {
       font-family: 'Arial', sans-serif;
       margin: 0;
@@ -26,24 +35,24 @@
 
 <body>
   <div class="container">
-    <header style="width:100%;background:#19306c;box-shadow:0 2px 12px rgba(32,46,80,0.07);padding:0.5em 0 0.5em 0;position:sticky;top:0;z-index:100;">
-      <div style="max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:flex-end;gap:2em;">
+  <header class="header-manacus">
+      <div style="max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:flex-end;gap:1em;">
   <!-- Logo removido de la cabecera -->
         <nav style="display:flex;gap:1em;flex-wrap:wrap;">
           <a href="services/servicios.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Servicios</a>
           <a href="projects/proyectos.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Proyectos</a>
-          <a href="equipo" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Equipo</a>
+          <a href="equipo" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Tecnología</a>
           <a href="quienes/quienes.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">¿Quiénes somos?</a>
           <a href="contacto/contacto.md" style="background:#19306c;color:#fff;padding:0.6em 1.3em;border-radius:8px;font-weight:bold;text-decoration:none;font-size:1em;box-shadow:0 1px 8px #19306c22;transition:background 0.2s;">Contacto</a>
         </nav>
       </div>
     </header>
   </div>
-  <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:2.5em;margin-bottom:2.7em;">
-    <img src="src/logo_azul.jpg" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;">
-  </div>
   <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
-  <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:1.2em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
+  <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
+    <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
+      <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;">
+    </div>
     <h2>NUESTRO OBJETIVO</h2>
         <strong style="color:#19306c;">Promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad.</strong>
         <br><br>
