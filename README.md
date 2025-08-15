@@ -4,6 +4,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fundación Manacus </title>
   <style>
+    @media (max-width: 650px) {
+      .header-manacus {
+        padding: 0.3em 0 0.3em 0;
+      }
+      .header-manacus > div {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 0.7em !important;
+      }
+      .header-manacus nav {
+        flex-direction: column;
+        gap: 0.7em;
+        align-items: stretch;
+      }
+      .header-manacus a {
+        font-size: 0.98em;
+        padding: 0.5em 1em;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: left;
+      }
+    }
     .header-manacus {
       width: 100%;
       background: #19306c;
