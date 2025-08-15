@@ -103,7 +103,7 @@
           </div>
         </div>
         <div style="width:220px;min-height:120px;display:flex;align-items:center;justify-content:center;background:rgba(32,46,80,0.08);border-radius:12px;">
-          <!-- Espacio para imagen de Grilla -->
+          <img src="src/grilloEntero.png" alt="Grilla sensor" style="max-width:200px;width:100%;height:auto;display:block;">
         </div>
       </div>
     </section>
