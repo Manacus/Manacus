@@ -98,7 +98,7 @@
           <h1>GRILLOS</h1>
           <p>Sensores acústicos pasivos de bajo costo diseñados para estudiar la biodiversidad a partir de la grabación de sonidos ambientales.</p>
           <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:left;">
-            <a href="#manual" class="buttons">Manual de operación</a>
+            <a href="https://docs.google.com/document/d/1kwLbPUh7tB_ICO8ptXz6Q2vYcHChcv4enA8AXWpYvIY/edit?usp=sharing" class="buttons">Manual de operación</a>
             <a href="#ficha" class="buttons">Ficha técnica</a>
           </div>
         </div>
@@ -111,14 +111,14 @@
       <h2>Firmware</h2>
       <p>Software para funcionamiento de los grillos. Descarga la version más reciente aquí: <a>v1.0.0</a></p>
       <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:left;">
-            <a href="#manual" class="buttons">Manual de instalación</a>
+            <a href="https://docs.google.com/document/d/1kwLbPUh7tB_ICO8ptXz6Q2vYcHChcv4enA8AXWpYvIY/edit?usp=sharing" class="buttons">Manual de instalación</a>
       </div>
     </section>
     <section id="galeria">
       <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:2em;">
         <div style="flex:1;">
           <h2>GrillApp</h2>
-          <p>Aplicacion android para configuración de dispositivos. Descargala en la <a>Playstore</a>.</p>
+          <p>Aplicacion android para configuración de dispositivos. Descargala en la <a href="https://play.google.com/apps/internaltest/4701477267970862944">Playstore</a>.</p>
         </div>
       <div style="display:flex;">
           <img src="src/GrillaHoo-03.png" alt="Grilla sensor" style="max-width:100px;width:100%;height:auto;display:block;">
