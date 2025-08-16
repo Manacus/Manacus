@@ -23,17 +23,6 @@
   <div class="container">
     <h1>¿Quiénes somos?</h1>
     <div class="miembro-block">
-      <div class="miembro-nombre">HOOVER PANTOJA-SÁNCHEZ</div>
-      <div class="miembro-cargo">INVESTIGADOR ASOCIADO</div>
-      <div class="miembro-desc">
-        Ph.D. en Ingeniería Electrónica con formación como Bioingeniero. Cuenta con más de 8 años de experiencia en investigación científica básica y aplicada, enfocada en el desarrollo de nuevas tecnologías y proyectos de bioacústica. A lo largo de su carrera, ha ocupado roles como investigador postdoctoral asociado en la Universidad de Purdue (Indiana, EE.UU) y Curador de la Colección de Sonidos Ambientales del Instituto Humboldt. Su principal interés es el desarrollo de tecnología para la investigación y el monitoreo de biodiversidad a partir de estrategias bioacústicas.
-      </div>
-      <div class="miembro-contacto">
-        <a class="miembro-contacto-item" href="mailto:h.esteban.ps@gmail.com"><span class="miembro-contacto-icon">✉️</span> h.esteban.ps@gmail.com</a>
-        <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3182738651</span>
-      </div>
-    </div>
-    <div class="miembro-block">
       <div class="miembro-nombre">ANGELA MARÍA MENDOZA-HENAO</div>
       <div class="miembro-cargo">INVESTIGADORA ASOCIADA</div>
       <div class="miembro-desc">
@@ -43,6 +32,17 @@
       <div class="miembro-contacto">
         <a class="miembro-contacto-item" href="mailto:am.mendozah@gmail.com"><span class="miembro-contacto-icon">✉️</span> am.mendozah@gmail.com</a>
         <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3155777881</span>
+      </div>
+    </div>
+    <div class="miembro-block">
+      <div class="miembro-nombre">HOOVER PANTOJA-SÁNCHEZ</div>
+      <div class="miembro-cargo">INVESTIGADOR ASOCIADO</div>
+      <div class="miembro-desc">
+        Ph.D. en Ingeniería Electrónica con formación como Bioingeniero. Cuenta con más de 8 años de experiencia en investigación científica básica y aplicada, enfocada en el desarrollo de nuevas tecnologías y proyectos de bioacústica. A lo largo de su carrera, ha ocupado roles como investigador postdoctoral asociado en la Universidad de Purdue (Indiana, EE.UU) y Curador de la Colección de Sonidos Ambientales del Instituto Humboldt. Su principal interés es el desarrollo de tecnología para la investigación y el monitoreo de biodiversidad a partir de estrategias bioacústicas.
+      </div>
+      <div class="miembro-contacto">
+        <a class="miembro-contacto-item" href="mailto:h.esteban.ps@gmail.com"><span class="miembro-contacto-icon">✉️</span> h.esteban.ps@gmail.com</a>
+        <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3182738651</span>
       </div>
     </div>
     <div class="miembro-block">

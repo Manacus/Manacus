@@ -23,10 +23,10 @@
     <div class="contacto-block">
       <h1 class="contacto-title">Contáctanos</h1>
       <div class="contacto-list">
-        <a class="contacto-link" href="mailto:h.esteban.ps@gmail.com"><span class="contacto-icon">✉️</span> h.esteban.ps@gmail.com</a>
-        <a class="contacto-link" href="mailto:am.mendozah@gmail.com"><span class="contacto-icon">✉️</span> am.mendozah@gmail.com</a>
-        <span class="contacto-link"><span class="contacto-icon">📞</span> +57 3182738651</span>
+        <a class="contacto-link" href="mailto:contacto@manacus.co"><span class="contacto-icon">✉️</span> contacto@manacus.co</a>
+        <a class="contacto-link" href="mailto:angela.mendoza@manacus.co"><span class="contacto-icon">✉️</span> angela.mendoza@manacus.co</a>
         <span class="contacto-link"><span class="contacto-icon">📞</span> +57 3155777881</span>
+        <span class="contacto-link"><span class="contacto-icon">📞</span> +57 3182738651</span>
       </div>
     </div>
     <a href="../" class="back-btn">← Volver a la página anterior</a>
