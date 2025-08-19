@@ -114,11 +114,9 @@
     .texto-inicio{
       color: #19306c;
       font-weight: bold;
-      letter-spacing: -2px;
-      font-size: 1.8em;
+      font-size: 1.4em;
       margin-top: 0em;
       margin-bottom: 0em;
-      letter-spacing: -1.5px;
       text-align:center;
     }
     /* Hero / banner full-bleed */
@@ -169,7 +167,7 @@
   <header class="header-manacus">
     <div class="header-content">
       <div class="header-logo">
-        <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="background:rgba(255,255,255,0.04);" >
+        <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="background:rgba(32,46,80,0.06);" >
       </div>
       <nav class="header-nav">
         <a href="services/">Investigación</a>
