@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fundación Manacus </title>
+  <title>Fundación Manacus</title>
   <style>
     @media (max-width: 650px) {
       .header-manacus {
