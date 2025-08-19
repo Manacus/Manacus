@@ -77,7 +77,7 @@
     <img src="src/banner-tecno-01.png" alt="Banner tecnología" class="banner-img mirror">
     <div class="banner-overlay">
       <h2>Tecnología para monitoreo de fauna</h2>
-      <p>Herramientas tecnológicas acústicas, desarrolladas para estudiar la biodiversidad.</p>
+      <p>Herramientas tecnológicas acústicas diseñadas para el estudio de la biodiversidad.</p>
     </div>
   </div>
     <div class="proyecto-block">
