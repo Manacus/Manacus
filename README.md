@@ -169,10 +169,10 @@
   <header class="header-manacus">
     <div class="header-content">
       <div class="header-logo">
-        <img src="src/logo_cortado.png" alt="Logo Fundación Manacus">
+        <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="background:rgba(255,255,255,0.04);" >
       </div>
       <nav class="header-nav">
-        <a href="services/">Servicios</a>
+        <a href="services/">Investigación</a>
         <a href="projects/">Proyectos</a>
         <a href="tecnologia/">Tecnología</a>
         <a href="quienes/">¿Quiénes somos?</a>
@@ -198,7 +198,7 @@
     <section class="services-section">
       <div class="service-grid">
         <div class="service-card">
-          <div class="ic">📡</div>
+          <div class="ic">🎤</div>
           <h3>Monitoreo acústico</h3>
           <p>Instalación de estaciones y procesamiento automático de detecciones.</p>
         </div>
