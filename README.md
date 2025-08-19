@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fundación Manacus</title>
   <style>
-    @media (max-width: 650px) {
+  @media (max-width: 650px) {
       .header-manacus {
         padding: 0.3em 0 0.3em 0;
       }
@@ -26,15 +26,22 @@
         text-align: left;
       }
     }
+    /* Paleta inspirada en tonos marinos y acentos cálidos */
+    :root{
+      --manacus-primary: #0f355f; /* deep navy */
+      --manacus-accent: #ffd166; /* warm yellow */
+      --manacus-muted: #f4f8fb; /* very light */
+    }
     .header-manacus {
       width: 100%;
-      background: #fff;
-      box-shadow: 0 2px 12px rgba(32,46,80,0.07);
-      padding: 0.5em 0 0.5em 0;
+      background: linear-gradient(90deg,var(--manacus-primary), #153a68);
+      color: #fff;
+      box-shadow: 0 2px 18px rgba(11,32,56,0.12);
+      padding: 0.6em 0 0.6em 0;
       position: sticky;
       top: 0;
-      z-index: 100;
-      border-bottom: 1px solid #e8ecef;
+      z-index: 110;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
     }
     .header-content {
       max-width: 1200px;
@@ -54,31 +61,31 @@
       height: 48px;
       width: auto;
       display: block;
+      filter: brightness(1.1);
     }
     .header-nav {
       display: flex;
-      gap: 1em;
+      gap: 0.6em;
       flex-wrap: wrap;
       align-items: center;
     }
     .header-nav a {
-      background: none;
-      color: #19306c;
-      padding: 0.6em 1.3em;
+      background: transparent;
+      color: #fff;
+      padding: 0.45em 0.9em;
       border-radius: 8px;
-      font-weight: bold;
+      font-weight: 700;
       text-decoration: none;
-      font-size: 1em;
-      box-shadow: none;
+      font-size: 0.98em;
       border: 1px solid transparent;
-      transition: background 0.2s, border 0.2s;
+      transition: background 0.18s, transform 0.18s;
     }
     .header-nav a:hover {
-      background: #e8ecef;
-      border: 1px solid #19306c22;
+      background: rgba(255,209,102,0.12);
+      transform: translateY(-2px);
     }
     .footer-rec{
-      color: #19306c;
+      color: var(--manacus-primary);
       font-weight: bold;
       letter-spacing: -2px;
       font-size: 1.8em;
@@ -104,9 +111,60 @@
       margin-bottom: 0.5em;
       letter-spacing: -1.5px;
     }
+    .texto-inicio{
+      color: #19306c;
+      font-weight: bold;
+      letter-spacing: -2px;
+      font-size: 1.8em;
+      margin-top: 0em;
+      margin-bottom: 0em;
+      letter-spacing: -1.5px;
+      text-align:center;
+    }
+    /* Hero / banner full-bleed */
+    .hero-fullwidth{
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      background: linear-gradient(90deg, rgba(15,53,95,0.95), rgba(21,58,104,0.7));
+      color: #fff;
+      padding: 3.2em 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-content{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2em;
+      display: flex;
+      gap: 2em;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .hero-text{ flex: 1 1 48%; }
+    .hero-text h1{ font-size:2.1em;margin:0 0 0.6em;color:var(--manacus-accent); }
+    .hero-text p{ color: #f1f6fb; font-size:1.02em; margin-bottom:1em }
+    .hero-cta{ display:inline-block;background:var(--manacus-accent);color:var(--manacus-primary);padding:0.6em 1.1em;border-radius:8px;font-weight:700;text-decoration:none }
+    .hero-image{ flex: 0 0 48%; position:relative; display:flex; justify-content:flex-end }
+    .hero-image img{ width: 56%; height:auto; max-height:320px; object-fit:cover; border-radius:10px; box-shadow:0 18px 45px rgba(2,10,30,0.45); transform:translateX(6%);} 
+    /* Select Your Service style */
+    .services-section{ max-width:1200px;margin:2.2em auto;padding:0 2em; }
+    .services-header{ text-align:left;margin-bottom:1em }
+  .service-grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:1.15em }
+    .service-card{ background:linear-gradient(180deg, #ffffff, #fbfdff); border-radius:12px; padding:1.1em; box-shadow:0 6px 22px rgba(11,32,56,0.06); border:1px solid rgba(15,53,95,0.06); transition: transform 0.22s ease, box-shadow 0.22s ease }
+    .service-card:hover{ transform: translateY(-8px); box-shadow:0 22px 48px rgba(11,32,56,0.12) }
+    .service-card .ic{ font-size:2.15em; margin-bottom:0.6em }
+    .service-card h3{ margin:0 0 0.5em;color:var(--manacus-primary) }
+    .service-card p{ margin:0;color:#4b5568 }
+  @media (max-width: 1200px){ .service-grid{ grid-template-columns: repeat(3,1fr) } }
+  @media (max-width: 980px){ .service-grid{ grid-template-columns: repeat(2,1fr) } .hero-image img{ width:68% } }
+  @media (max-width: 650px){
+      .hero-content{ flex-direction:column; gap:1.2em }
+      .hero-image{ order: 2; width:100%; justify-content:center }
+      .hero-image img{ width:86%; transform:none }
+      .service-grid{ grid-template-columns: 1fr }
+    }
   </style>
 </head>
-
 <body>
   <header class="header-manacus">
     <div class="header-content">
@@ -127,15 +185,40 @@
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
       <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
     </div>
-    <h2>NUESTRO OBJETIVO</h2>
-        <strong style="color:#19306c;">Promover la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, que reconozca la diversidad cultural y social para el ordenamiento, uso y manejo adecuado de los recursos naturales renovables y no renovables; impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad.</strong>
-        <br><br>
-        Consulta la documentación de la fundación en el siguiente
-        <a href="https://drive.google.com/drive/folders/1CbhU2uk9KZeAq2XAYW3GV9nvNxB_VJUJ?usp=drive_link">ENLACE</a>
-        <br>
-        Queremos conocer tu opinión, deja tus comentarios
-        <a href="https://forms.gle/BLGUCDMGW3Qd51Xg9">AQUÍ</a>
-        <br>
+    <p class="texto-inicio">Promovemos la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, reconociendo la diversidad cultural y social e impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad.</p>
+    <br><br>
+    Consulta la documentación de la fundación en el siguiente
+    <a href="https://drive.google.com/drive/folders/1CbhU2uk9KZeAq2XAYW3GV9nvNxB_VJUJ?usp=drive_link">ENLACE</a>
+    <br>
+    Queremos conocer tu opinión, deja tus comentarios
+    <a href="https://forms.gle/BLGUCDMGW3Qd51Xg9">AQUÍ</a>
+    <br>
+    <!-- SELECT YOUR SERVICE (cards) -->
+    <h2>Servicios</h2>
+    <section class="services-section">
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="ic">📡</div>
+          <h3>Monitoreo acústico</h3>
+          <p>Instalación de estaciones y procesamiento automático de detecciones.</p>
+        </div>
+        <div class="service-card">
+          <div class="ic">📊</div>
+          <h3>Análisis de datos</h3>
+          <p>Modelos y dashboards para interpretación y toma de decisiones.</p>
+        </div>
+        <div class="service-card">
+          <div class="ic">🤝</div>
+          <h3>Capacitación</h3>
+          <p>Talleres y formación para comunidades y técnicos locales.</p>
+        </div>
+        <div class="service-card">
+          <div class="ic">📡</div>
+          <h3>Desarrollo de tecnología</h3>
+          <p>Diseño y desarrollo de soluciones a medida: sensores, firmware y plataformas para análisis acústico.</p>
+        </div>
+      </div>
+    </section>
     <h2>Estamos comprometidos con:</h2>
         <ul>
           <li><strong style="color:#19306c;">Preservar</strong> la biodiversidad mediante el uso de tecnologías avanzadas.</li>
@@ -157,7 +240,7 @@
         <img src="src/logo_REC.png" alt="Logo REC" style="max-width:80px;width:auto;height:auto;vertical-align:middle;display:inline-block;background:#f8fafd;margin-left:0.7em;"></p>
   </div>
   <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
-  Footer
+  contacto@manacus.co | Cali, Valle del Cauca, Colombia | © 2025 Manacus | NIT: 9 0 1 9 5 6 7 5 3
   </footer>
 </body>
 </html>
@@ -165,3 +248,9 @@
 
 
   
+
+
+
+
+
+
