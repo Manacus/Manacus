@@ -5,6 +5,7 @@
   <title>Grillos</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    /* utilidades responsivas compartidas */
     body {
       margin: 0;
       padding: 0;
@@ -14,6 +15,8 @@
       color: #e0e0e0;
       min-height: 100vh;
     }
+    .page-container { max-width:1100px; margin:0 auto; padding:36px 20px }
+    img.responsive{ max-width:100%; height:auto; display:block }
     .overlay {
       background: rgba(0, 0, 0, 0.85);
       min-height: 400vh;
@@ -81,6 +84,8 @@
       nav a { font-size: 1em; margin: 0 0.7em; }
       section { padding: 1em; }
     }
+    @media (max-width: 980px){ .page-container{ padding:24px 14px } }
+    @media (max-width: 650px){ .page-container{ padding:18px 12px } nav{ padding:0.8em 0 } }
   </style>
 </head>
 <body>

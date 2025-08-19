@@ -4,8 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Proyectos | Fundación Manacus</title>
   <style>
+    /* utilidades responsivas compartidas */
     body { font-family: 'Arial', sans-serif; background: #f9f9f9; color: #232323; margin: 0; padding: 0; }
+    .page-container { max-width: 1100px; margin: 0 auto; padding: 36px 20px; background: #fff; border-radius: 12px; box-shadow: 0 1px 10px rgba(32,46,80,0.06); }
     .container { max-width: 900px; margin: 0 auto; padding: 32px 16px; background: #fff; border-radius: 12px; box-shadow: 0 1px 10px rgba(32,46,80,0.06); }
+    img.responsive{ max-width:100%; height:auto; display:block; }
     .banner-proyecto {
       width: 100%;
       height: 240px;
@@ -46,8 +49,11 @@
     }
     .banner-proyecto .banner-overlay h2{ margin:0 0 6px 0; font-size:1.4em; }
     .banner-proyecto .banner-overlay p{ margin:0; font-size:1em; }
-    @media (max-width: 900px) { .banner-proyecto{ height:180px } .banner-proyecto .banner-overlay{ left:16px; bottom:14px; max-width:68%; padding:12px } }
-    @media (max-width: 480px) { .banner-proyecto{ height:120px } .banner-proyecto .banner-overlay{ left:10px; right:10px; bottom:10px; max-width:none; padding:8px } .banner-proyecto .banner-overlay h2{ font-size:1.05em } }
+  @media (max-width: 900px) { .banner-proyecto{ height:180px } .banner-proyecto .banner-overlay{ left:16px; bottom:14px; max-width:68%; padding:12px } }
+  @media (max-width: 480px) { .banner-proyecto{ height:120px } .banner-proyecto .banner-overlay{ left:10px; right:10px; bottom:10px; max-width:none; padding:8px } .banner-proyecto .banner-overlay h2{ font-size:1.05em } }
+  /* contenedor adaptativo para móviles y tablets */
+  @media (max-width: 980px){ .page-container{ padding:24px 14px } }
+  @media (max-width: 650px){ .page-container{ padding:18px 12px; border-radius:8px } }
     h1 { color: #19306c; font-size: 2.2em; font-weight: bold; margin-bottom: 1.2em; }
     .proyecto-block { background: #f9f9f9; border-radius: 10px; box-shadow: 0 1px 6px rgba(32,46,80,0.03); border-left: 10px solid #fdbe5d; padding: 2.2em 2em 2em 4.2em; margin-bottom: 2em; }
     .proyecto-title { color: #19306c; font-size: 1.3em; font-weight: bold; margin-bottom: 0.7em; letter-spacing: -1.5px; }

@@ -4,8 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Servicios | Fundación Manacus</title>
   <style>
+    /* utilidades responsivas compartidas */
     body { font-family: 'Arial', sans-serif; background: #f9f9f9; color: #232323; margin: 0; padding: 0; }
+    .page-container { max-width: 1100px; margin: 0 auto; padding: 36px 20px; background: #fff; border-radius: 12px; box-shadow: 0 1px 10px rgba(32,46,80,0.06); }
     .container { max-width: 900px; margin: 0 auto; padding: 32px 16px; background: #fff; border-radius: 12px; box-shadow: 0 1px 10px rgba(32,46,80,0.06); }
+    img.responsive{ max-width:100%; height:auto; display:block; }
     h1 { color: #19306c; font-size: 2.2em; font-weight: bold; margin-bottom: 1.2em; }
     .servicio-block { margin-bottom: 2.2em; background: #f9f9f9; border-radius: 10px; padding: 1.2em 1.2em 1.2em 4.2em; position: relative; box-shadow: 0 1px 6px rgba(32,46,80,0.03); border-left: 10px solid #fdbe5d; }
     .servicio-icon { position: absolute; left: 1em; top: 1.3em; font-size: 1.8em; }
