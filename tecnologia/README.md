@@ -6,6 +6,22 @@
   <style>
     body { font-family: 'Arial', sans-serif; background: #f9f9f9; color: #232323; margin: 0; padding: 0; }
     .container { max-width: 900px; margin: 0 auto; padding: 32px 16px; background: #fff; border-radius: 12px; box-shadow: 0 1px 10px rgba(32,46,80,0.06); }
+    .banner-tecno {
+      width: 100%;
+      height: 260px;
+      background: url('../src/banner-tecno-01.png') no-repeat center center;
+      background-size: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+      margin-bottom: 1.2em;
+      overflow: hidden;
+    }
+    @media (max-width: 900px) {
+      .banner-tecno { height: 200px; background-position: center center; }
+    }
+    @media (max-width: 480px) {
+      .banner-tecno { height: 140px; background-position: center center; }
+    }
     h1 { color: #19306c; font-size: 2.2em; font-weight: bold; margin-bottom: 1.2em; }
     .proyecto-block { background: #f9f9f9; border-radius: 10px; box-shadow: 0 1px 6px rgba(32,46,80,0.03); border-left: 10px solid #fdbe5d; padding: 2.2em 2em 2em 4.2em; margin-bottom: 2em; }
     .proyecto-title { color: #19306c; font-size: 1.3em; font-weight: bold; margin-bottom: 0.7em; letter-spacing: -1.5px; }
@@ -18,7 +34,8 @@
 </head>
 <body>
   <div class="container">
-    <h1>Tecnología</h1>
+  <div class="banner-tecno" role="img" aria-label="Banner tecnología"></div>
+  <h1>Tecnología</h1>
     <div class="proyecto-block">
   <a href="Grillos/" class="proyecto-title">Grillos</a>
       <div class="proyecto-desc">Sensores acústicos pasivos para monitoreo de fauna</div>
