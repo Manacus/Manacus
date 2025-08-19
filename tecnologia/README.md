@@ -20,8 +20,8 @@
   <div class="container">
     <h1>Tecnología</h1>
     <div class="proyecto-block">
-  <a href="Grillos/" class="proyecto-title">Sensores acústicos pasivos</a>
-      <div class="proyecto-desc">Grabadoras automáticas para monitoreo de fauna</div>
+  <a href="Grillos/" class="proyecto-title">Grillos</a>
+      <div class="proyecto-desc">Sensores acústicos pasivos para monitoreo de fauna</div>
     </div>
     <a href="../" class="back-btn">← Volver a la página anterior</a>
   </div>
