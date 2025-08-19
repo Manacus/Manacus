@@ -21,7 +21,7 @@
     <h1>Proyectos</h1>
     <div class="proyecto-block">
       <div class="proyecto-title">Puerto Triunfo <a href="puertoTriunfo.html" target="_blank">- visitar</a> </div>
-      <div class="proyecto-desc">La vereda Nápoles, poblada por familias que recibieron las tierras tras la incautación y redistribución de la antigua Hacienda Nápoles, limita con un gran parque de atracciones y lagos con hipopótamos; allí varias familias impulsan proyectos de restauración forestal para proteger aves, monos, ardillas y otros animales, y entre febrero y junio de 2025 un equipo interdisciplinario de biólogos, antropólogos e ingenieros trabajó con ellas instalando grabadoras de monitoreo acústico en dos iniciativas locales: un cultivo agroforestal de cacao liderado por la familia de “Chocolate Napol's” y un santuario de abejas llamado “Vibsionary Rescuin the Planet” junto al parque..</div>
+      <div class="proyecto-desc">La vereda Nápoles, poblada por familias que recibieron las tierras tras la incautación y redistribución de la antigua Hacienda Nápoles, limita con un gran parque de atracciones y lagos con hipopótamos; allí varias familias impulsan proyectos de restauración forestal para proteger aves, monos, ardillas y otros animales. En 2025 Manacus, junto a la antropóloga Alejandra Osejo trabajó con las familias instalando sensores de monitoreo acústico en dos iniciativas locales: un cultivo agroforestal de cacao liderado por la familia de “Chocolate Napol's” y un santuario de abejas llamado “Vibsionary Rescuin the Planet”</div>
     </div>
     <a href="../" class="back-btn">← Volver a la página anterior</a>
   </div>
