@@ -170,7 +170,7 @@
         <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="background:rgba(32,46,80,0.06);" >
       </div>
       <nav class="header-nav">
-        <a href="services/">Investigación</a>
+        <!-- <a href="services/">Investigación</a> -->
         <a href="projects/">Proyectos</a>
         <a href="tecnologia/">Tecnología</a>
         <a href="quienes/">¿Quiénes somos?</a>
@@ -183,7 +183,7 @@
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
       <img src="src/logo_cortado.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
     </div>
-    <p class="texto-inicio">Promovemos la preservación y protección del medio ambiente, desde una perspectiva territorial y de derechos, reconociendo la diversidad cultural y social e impulsando la implementación de nuevas tecnologías para el monitoreo, conservación y gestión sostenible de la biodiversidad.</p>
+    <p class="texto-inicio">Promovemos la preservación y protección del medio ambiente | Fomentamos una perspectiva territorial y de derechos, reconociendo la diversidad cultural y social | Impulsamos nuevas tecnologías para la gestión sostenible de la biodiversidad.</p>
     <br><br>
     Consulta la documentación de la fundación en el siguiente
     <a href="https://drive.google.com/drive/folders/1CbhU2uk9KZeAq2XAYW3GV9nvNxB_VJUJ?usp=drive_link">ENLACE</a>
@@ -238,7 +238,7 @@
         <img src="src/logo_REC.png" alt="Logo REC" style="max-width:80px;width:auto;height:auto;vertical-align:middle;display:inline-block;background:#f8fafd;margin-left:0.7em;"></p>
   </div>
   <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
-  contacto@manacus.co | Cali, Valle del Cauca, Colombia | © 2025 Manacus | NIT: 9 0 1 9 5 6 7 5 3
+  contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus 
   </footer>
 </body>
 </html>

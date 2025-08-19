@@ -24,45 +24,18 @@
 </head>
 <body>
   <div class="container">
-    <h1>Servicios</h1>
+    <h1>Investigación</h1>
     <div class="servicio-block">
       <span class="servicio-icon" aria-label="Gestión">🔬</span>
-      <div class="servicio-title">Gestión y ejecución de proyectos de investigación</div>
+      <div class="servicio-title">Participación en proyectos de investigación en bioacústica</div>
       <ul class="servicio-list">
-        <li>Diseño e implementación de proyectos de investigación con monitoreo acústico pasivo (MAP).</li>
-        <li>Líneas base acústicas para Estudios de Impacto Ambiental (EIA).</li>
-        <li>Evaluación de biodiversidad mediante grabaciones autónomas y análisis de paisajes sonoros.</li>
-        <li>Estudios de indicadores acústicos para evaluar la integridad ecológica.</li>
-        <li>Monitoreo de especies de interés (murciélagos, aves, anfibios).</li>
-      </ul>
-    </div>
-    <div class="servicio-block">
-      <span class="servicio-icon" aria-label="Asesoría">🛠️</span>
-      <div class="servicio-title gray">Asesoría técnica en implementación de monitoreo acústico pasivo</div>
-      <ul class="servicio-list">
-        <li>Selección, configuración e instalación de equipos.</li>
-        <li>Diseño de muestreo para monitoreo a largo plazo.</li>
-        <li>Protocolos de muestreo adaptados a ecosistemas prioritarios.</li>
-        <li>Integración con otras tecnologías de sensoreamiento remoto [próximamente].</li>
-      </ul>
-    </div>
-    <div class="servicio-block">
-      <span class="servicio-icon" aria-label="Datos">📊</span>
-      <div class="servicio-title blue">Análisis de datos provenientes de monitoreo acústico pasivo</div>
-      <ul class="servicio-list">
-        <li>Procesamiento de grabaciones con machine learning y algoritmos de detección automática.</li>
-        <li>Comparación de tipos de coberturas mediante huellas acústicas.</li>
-        <li>Mapeo de distribución espacial y temporal de vocalizaciones con Sistemas de Información Geográfica (SIG).</li>
-      </ul>
-    </div>
-    <div class="servicio-block">
-      <span class="servicio-icon" aria-label="Capacitación">🎓</span>
-      <div class="servicio-title yellow">Capacitación y Transferencia Tecnológica</div>
-      <ul class="servicio-list">
-        <li>Talleres en monitoreo acústico pasivo y grabación acústica enfocado en espectro audible y ultrasonido.</li>
-        <li>Charlas en análisis de datos ecoacústicos.</li>
-        <li>Apoyo en diseño de estudios aplicados a la conservación.</li>
-        <li>Desarrollo de guías metodológicas y manuales técnicos.</li>
+        <li>Mendoza-Henao AM, Pantoja H, Barona-Cortés E, Martínez-Medina D, Restrepo A, Nieto FJ, Hernández-Leal OF, Ulloa JS.  (2025). Integrating soundscape to landscape in the understanding of agricultural transformation in the Neotropical context. Phil. Trans. R. Soc. B38020240048
+        <li>Santana E. Mendoza-Henao AM, Goyes Vallejos J (2025). The “silent” half: diversity, function, and the critical knowledge gap on female frog vocalizations. Proceedings of the Royal Society B Biological Sciences 292(2047), 20250454.</li>
+        <li>Arcila-Perez, Luisa & Barona Cortes, Eliana & Zúñiga, Daniela & Martínez-Medina, Daniela & Gutiérrez, Daniel, Gómez-Morales, Diego A, Mendoza-Henao, Angela & Pantoja-Sánchez, Hoover. (2024). Protocolo de grabación, procesamiento y depósito de especímenes de audio.</li>
+        <li>Ávila García, Ana María & Martínez-Medina, Daniela & Buitrago-Cardona, Alexandra & Ulloa, Juan & Mejia Cepeda, Natalia & Barona Cortes, Eliana & Mendoza-Henao, Angela & Pantoja-Sánchez, Hoover. (2024). Protocolo de monitoreo, procesamiento y etiquetado manual para grabaciones pasivas.</li>
+        <li>Fernández, Ron & Ku-Peralta, Wiliam & Botero-Restrepo, Daniela & Niño-Rodríguez, Nelsy & Laverde, Oscar & Pantoja-Sánchez, Hoover & Álvarez-Rebolledo, Mauricio & Marín Gómez, Oscar & Duque Mendoza, Fernanda. (2023). La voz de nuestras aves: contribuciones de la bioacústica a la ornitología colombiana The voice of our birds: contributions of bioacoustics to Colombian ornithology. Ornitología colombiana. 3-30. 10.59517/oc.e555.</li>
+        <li>Mendoza-Henao, Angela & Acevedo-Charry, Orlando & Martínez-Medina, Daniela & Barona Cortes, Eliana & Córdoba-Córdoba, Sergio & Caycedo, Paula & Ulloa, Juan & Buitrago-Cardona, Alexandra & Pantoja-Sánchez, Hoover. (2023). Past, present, and future of a tropical sounds collection from Colombia. Bioacoustics. 32. 10.1080/09524622.2023.2197868.</li>
+        <li>Mendoza-Henao, A. M., Duarte-Marin S, Rada M. (2021). Advertisement call of six glassfrog species of Colombian Andes and comments on priorities for future research and conservation. Amphibian & Reptile Conservation.</li>
       </ul>
     </div>
     <a href="../" class="back-btn">← Volver a la página anterior</a>
