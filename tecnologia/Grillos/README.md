@@ -132,7 +132,7 @@
     </section>
     <section id="contacto">
       <h2>Adquiérelos o solicita soporte técnico</h2>
-      <p>Contacta al equipo desarrollador para comprarlos o asistencia técnica escribiendo al número de <a href="https://wa.me/573182738651" style="color:#7be87b;font-weight:bold;text-decoration:none;font-size:1.13em;" target="_blank">WhatsApp: +57 318 2738651</a></p>
+      <p>Contacta al equipo desarrollador para comprarlos o asistencia técnica escribiendo a los números de Whatsapp<a href="https://wa.me/573182738651" style="color:#7be87b;font-weight:bold;text-decoration:none;font-size:1.13em;" target="_blank">+57 3222932717</a> <a href="https://wa.me/573182738651" style="color:#7be87b;font-weight:bold;text-decoration:none;font-size:1.13em;" target="_blank">+573182738651</a> </p>
     </section>
     <section id="blog-comentarios" style="background:rgba(0,0,0,0.85);border-radius:14px;box-shadow:0 1px 10px #00000044;padding:2em;margin-bottom:2em;margin-top:2em;max-width:900px;margin-left:auto;margin-right:auto;">
       <h2 style="color:#7be87b;font-size:1.5em;margin-bottom:1em;">Blog de comentarios</h2>

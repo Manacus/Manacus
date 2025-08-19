@@ -33,7 +33,7 @@
         Investigadora con experiencia en el diseño, gestión y ejecución de proyectos de investigación en ecología, evolución, caracterización y monitoreo a la evaluación de la biodiversidad. Especial énfasis en análisis acústicos, incluyendo detección automática de especies con aplicación en ecosistemas agrícolas y áreas prioritarias de conservación. Experiencia en docencia universitaria de manera presencial y remota. Amplia trayectoria en sesiones de análisis de sonidos, así como en socialización de resultados científicos y educativos. Sus líneas de interés comprenden el desarrollo de indicadores acústicos para evaluar los bases de biodiversidad e implementación de indicadores acústicos en diferentes escenarios a nivel nacional. Ha participado en la curaduría y manejo de colecciones sonoras. Suele integrar el uso de herramientas estadísticas avanzadas y enfoques metodológicos simuladores para la investigación y la gestión de la biodiversidad.
       </div>
       <div class="miembro-contacto">
-        <a class="miembro-contacto-item" href="mailto:am.mendozah@gmail.com"><span class="miembro-contacto-icon">✉️</span> am.mendozah@gmail.com</a>
+        <a class="miembro-contacto-item" href="mailto:angela.mendoza@manacus.co"><span class="miembro-contacto-icon">✉️</span> am.mendozah@gmail.com</a>
         <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3155777881</span>
       </div>
     </div>
@@ -44,7 +44,7 @@
         Ph.D. en Ingeniería Electrónica con formación como Bioingeniero. Cuenta con más de 8 años de experiencia en investigación científica básica y aplicada, enfocada en el desarrollo de nuevas tecnologías y proyectos de bioacústica. A lo largo de su carrera, ha ocupado roles como investigador postdoctoral asociado en la Universidad de Purdue (Indiana, EE.UU) y Curador de la Colección de Sonidos Ambientales del Instituto Humboldt. Su principal interés es el desarrollo de tecnología para la investigación y el monitoreo de biodiversidad a partir de estrategias bioacústicas.
       </div>
       <div class="miembro-contacto">
-        <a class="miembro-contacto-item" href="mailto:h.esteban.ps@gmail.com"><span class="miembro-contacto-icon">✉️</span> h.esteban.ps@gmail.com</a>
+        <a class="miembro-contacto-item" href="mailto:contacto@manacus.co"><span class="miembro-contacto-icon">✉️</span> contacto@manacus.co</a>
         <span class="miembro-contacto-item"><span class="miembro-contacto-icon">📱</span> +57 3182738651</span>
       </div>
     </div>
