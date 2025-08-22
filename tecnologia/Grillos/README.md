@@ -123,7 +123,7 @@
       <div style="display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:2em;">
         <div style="flex:1;">
           <h2>GrillApp</h2>
-          <p>Aplicacion android para configuración de dispositivos. Descargala en la <a href="https://play.google.com/apps/internaltest/4701477267970862944">Playstore</a>.</p>
+          <p>Aplicacion android para configuración de dispositivos. Descargala en la <a href="https://play.google.com/apps/internaltest/4700646674089210016">Playstore</a>.</p>
         </div>
       <div style="display:flex;">
           <img src="src/iconGrillApp.png" alt="Grillos sensor" style="max-width:100px;width:100%;height:auto;display:block;background=">
