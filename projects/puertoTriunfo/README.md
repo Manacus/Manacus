@@ -77,15 +77,6 @@
       .service-card .ic{ font-size:2.15em; margin-bottom:0.6em }
       .service-card h3{ margin:0 0 0.5em;color:var(--manacus-primary) }
       .service-card p{ margin:0;color:#4b5568 }
-<<<<<<< HEAD
-=======
-    /* Media y enlace dentro de cada tarjeta de servicio */
-    .service-card .service-media{ height:120px; border-radius:8px; overflow:hidden; background:#f1f5f9; display:flex; align-items:center; justify-content:center; margin-bottom:10px; border:1px dashed rgba(15,53,95,0.05); }
-    .service-card .service-media img{ width:100%; height:100%; object-fit:cover; display:block }
-    .service-card .service-link{ margin-top:10px }
-    .service-card .service-link a{ display:inline-block; padding:8px 12px; border-radius:8px; background:var(--manacus-primary); color:#fff; text-decoration:none; font-weight:700 }
-    .service-card .service-link a:hover{ background:#113156 }
->>>>>>> 6d18e8b (pto Triunfo)
     @media (max-width: 1200px){ .service-grid{ grid-template-columns: repeat(3,1fr) } }
     @media (max-width: 980px){ .service-grid{ grid-template-columns: repeat(2,1fr) } .hero-image img{ width:68% } }
     @media (max-width: 650px){
@@ -117,9 +108,8 @@
         La vereda Nápoles está habitada por familias que recibieron sus tierras tras la incautación y redistribución de la antigua Hacienda Nápoles por parte del gobierno colombiano, después de la muerte de Pablo Escobar. Estos predios se ubican en la frontera de un gran parque de diversiones y cerca de lagos habitados por hipopótamos.
         En este lugar, algunas familias han desarrollado proyectos para el cuidado y la restauración del bosque, con el objetivo de proteger el hábitat de aves, monos, ardillas y otros animales que comparten el espacio con ellos.
         De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.
-        La primera fue en un cultivo agroforestal de cacao, donde la familia detrás de "Chocolate Napol's" ha desarrollado estrategias sostenibles de producción. La segunda fue en un santuario de abejas, llamado "Vibsionary Rescuin the Planet", creado y custodiado por otra familia en un bosque que colinda con el parque de atracciones.
+        La primera fue en un cultivo agroforestal de cacao, donde la familia detrás de "Chocolate Napol's" ha desarrollado estrategias sostenibles de producción. La segunda fue en un santuario de abejas, llamado "Vibsionary Rescuing the Planet", creado y custodiado por otra familia en un bosque que colinda con el parque de atracciones.
     </p> 
-<<<<<<< HEAD
     <h2>Servicios</h2>
     <section class="services-section">
       <div class="service-grid">
@@ -133,30 +123,6 @@
           <h3>Desarrollo de tecnología</h3>
           <p>Diseño y desarrollo de soluciones a medida: sensores, firmware y plataformas para análisis acústico.</p>
         </div>
-=======
-    <h2>Conoce más de cada iniciativa</h2>
-    <section class="services-section">
-      <div class="service-grid">
-                <div class="service-card">
-                    <div class="ic">🍫</div>
-                    <div class="service-media">
-                        <!-- Espacio para foto: reemplaza src o agrega img -->
-                        <img src="src/chocolate_napols.jpg" alt="Chocolate Napol's foto" onerror="this.style.display='none'">
-                    </div>
-                    <h3>Chocolate Napol's</h3>
-                    <p>Talleres y formación para comunidades y técnicos locales.</p>
-                    <div class="service-link"><a href="#">Más información</a></div>
-                </div>
-                <div class="service-card">
-                    <div class="ic">🐝</div>
-                    <div class="service-media">
-                        <img src="src/vibsionary_santuario.jpg" alt="Santuario Vibsionary" onerror="this.style.display='none'">
-                    </div>
-                    <h3>Santuario de abejas, fauna y flora Vibsionary</h3>
-                    <p>Diseño y desarrollo de soluciones a medida: sensores, firmware y plataformas para análisis acústico.</p>
-                    <div class="service-link"><a href="#">Más información</a></div>
-                </div>
->>>>>>> 6d18e8b (pto Triunfo)
       </div>
     </section>  
     <section class="hero-audio">
@@ -263,12 +229,12 @@
     </div>
     <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
     <h3>Creditos:  </h3>
-            <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao, Hoover Pantoja</ul>
-            <ul>Chocolate Napol’s: Diego Marín, Marcela Bernal, Daniel Marín</ul>
-            <ul>Vibsionary Rescuin the planet: Johan, et al</ul>
-            <h3>Agradecimientos </h3>
-            <ul>Daniel David-Gutierrez</ul>
-            contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus
+        <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao, Hoover Pantoja</ul>
+        <ul>Chocolate Napol’s: Diego Marín, Marcela Bernal, Daniel Marín</ul>
+        <ul>Vibsionary Rescuin the planet: Johan, et al</ul>
+    <h3>Agradecimientos </h3>
+        <ul>Daniel David-Gutierrez</ul>
+        contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus
     </footer>
 </body>
 </html>
