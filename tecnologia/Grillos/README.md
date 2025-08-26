@@ -104,7 +104,7 @@
           <p>Sensores acústicos pasivos de bajo costo diseñados para estudiar la biodiversidad a partir de la grabación de sonidos ambientales.</p>
           <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:left;">
             <a href="https://docs.google.com/document/d/1kwLbPUh7tB_ICO8ptXz6Q2vYcHChcv4enA8AXWpYvIY/edit?usp=sharing" class="buttons">Manual de operación</a>
-            <a href="#ficha" class="buttons">Ficha técnica</a>
+            <a href="https://docs.google.com/document/d/1kjjWPtn4qhmCKh9WFW7O0TAx9Snv0oe4Cw0o3GNeE4U/edit?usp=sharing" class="buttons">Ficha técnica</a>
           </div>
         </div>
         <div style="width:220px;min-height:120px;display:flex;align-items:center;justify-content:center;background:rgba(32,46,80,0.08);border-radius:12px;">

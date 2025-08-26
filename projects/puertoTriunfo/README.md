@@ -71,12 +71,18 @@
     .header-nav a:hover { background: rgba(255,209,102,0.12); transform: translateY(-2px); }
         .services-section{ max-width:1200px;margin:2.2em auto;padding:0 2em; }
     .services-header{ text-align:left;margin-bottom:1em }
-    .service-grid{ display:grid; grid-template-columns: repeat(2,1fr); gap:1.15em }
-      .service-card{ background:linear-gradient(180deg, #ffffff, #fbfdff); border-radius:12px; padding:1.1em; box-shadow:0 6px 22px rgba(11,32,56,0.06); border:1px solid rgba(15,53,95,0.06); transition: transform 0.22s ease, box-shadow 0.22s ease }
-      .service-card:hover{ transform: translateY(-8px); box-shadow:0 22px 48px rgba(11,32,56,0.12) }
-      .service-card .ic{ font-size:2.15em; margin-bottom:0.6em }
-      .service-card h3{ margin:0 0 0.5em;color:var(--manacus-primary) }
-      .service-card p{ margin:0;color:#4b5568 }
+        .service-grid{ display:grid; grid-template-columns: repeat(2,1fr); gap:1.15em }
+            .service-card{ background:linear-gradient(180deg, #ffffff, #fbfdff); border-radius:12px; padding:1.1em; box-shadow:0 6px 22px rgba(11,32,56,0.06); border:1px solid rgba(15,53,95,0.06); transition: transform 0.22s ease, box-shadow 0.22s ease }
+            .service-card:hover{ transform: translateY(-8px); box-shadow:0 22px 48px rgba(11,32,56,0.12) }
+            .service-card .ic{ font-size:2.15em; margin-bottom:0.6em }
+            .service-card h3{ margin:0 0 0.5em;color:var(--manacus-primary) }
+            .service-card p{ margin:0;color:#4b5568 }
+            /* Espacio para foto y enlace dentro de cada service-card */
+            .service-card .service-media{ height:120px; border-radius:8px; overflow:hidden; background:#f1f5f9; display:flex; align-items:center; justify-content:center; margin-bottom:10px; border:1px dashed rgba(15,53,95,0.04); }
+            .service-card .service-media img{ width:100%; height:100%; object-fit:cover; display:block }
+            .service-card .service-link{ margin-top:12px }
+            .service-card .service-link a{ display:inline-block; padding:8px 12px; border-radius:8px; background:var(--manacus-primary); color:#fff; text-decoration:none; font-weight:700 }
+            .service-card .service-link a:hover{ background:#113156 }
     @media (max-width: 1200px){ .service-grid{ grid-template-columns: repeat(3,1fr) } }
     @media (max-width: 980px){ .service-grid{ grid-template-columns: repeat(2,1fr) } .hero-image img{ width:68% } }
     @media (max-width: 650px){
@@ -113,16 +119,25 @@
     <h2>Servicios</h2>
     <section class="services-section">
       <div class="service-grid">
-        <div class="service-card">
-          <div class="ic">🤝</div>
-          <h3>Capacitación</h3>
-          <p>Talleres y formación para comunidades y técnicos locales.</p>
-        </div>
-        <div class="service-card">
-          <div class="ic">📡</div>
-          <h3>Desarrollo de tecnología</h3>
-          <p>Diseño y desarrollo de soluciones a medida: sensores, firmware y plataformas para análisis acústico.</p>
-        </div>
+                <div class="service-card">
+                    <div class="ic">🐝
+</div>
+                    <div class="service-media">
+                        <img src="src/capacitacion.jpg" alt="Capacitación foto" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Abejas</h3>
+                    <p>Talleres y formación para comunidades y técnicos locales.</p>
+                    <div class="service-link"><a href="#">Más información</a></div>
+                </div>
+                <div class="service-card">
+                    <div class="ic">🍫</div>
+                    <div class="service-media">
+                        <img src="src/desarrollo_tecnologia.jpg" alt="Desarrollo tecnológico" onerror="this.style.display='none'">
+                    </div>
+                    <h3>Chocolate Napol's</h3>
+                    <p>Diseño y desarrollo de soluciones a medida: sensores, firmware y plataformas para análisis acústico.</p>
+                    <div class="service-link"><a href="#">Más información</a></div>
+                </div>
       </div>
     </section>  
     <section class="hero-audio">
@@ -136,7 +151,6 @@
     </section>
     <h3>A continuación puedes escuchar los sonidos de algunas aves registradas por medio del Monitoreo acústico pasivo en 2025.</h3>
     <div class="container">
-        <!-- Foto 1 -->
         <div class="card">
             <img src="src/Ara ararauna_New.jpg" alt="Foto Ara ararauna">
             <h3><i>Ara ararauna</i></h3>
@@ -229,10 +243,10 @@
     </div>
     <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
     <h3>Creditos:  </h3>
-        <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao, Hoover Pantoja</ul>
+        <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao</ul>
         <ul>Chocolate Napol’s: Diego Marín, Marcela Bernal, Daniel Marín</ul>
         <ul>Vibsionary Rescuin the planet: Johan, et al</ul>
-    <h3>Agradecimientos </h3>
+    <h3>Agradecimientos</h3>
         <ul>Daniel David-Gutierrez</ul>
         contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus
     </footer>
