@@ -103,7 +103,7 @@
                 </div>
         </header>
     <div class="page-frame">
-    <h2>Escuchar para convivir: reconstruyendo la historia de Nápoles a través del sonido de los animales</h2>
+    <h2>Escuchar para convivir: reconstruyendo la historia de Nápoles a través del sonido de los animales  version de Anghshhhhh</h2>
     <p class="lead">
         La vereda Nápoles está habitada por familias que recibieron sus tierras tras la incautación y redistribución de la antigua Hacienda Nápoles por parte del gobierno colombiano, después de la muerte de Pablo Escobar. Estos predios se ubican en la frontera de un gran parque de diversiones y cerca de lagos habitados por hipopótamos.
         En este lugar, algunas familias han desarrollado proyectos para el cuidado y la restauración del bosque, con el objetivo de proteger el hábitat de aves, monos, ardillas y otros animales que comparten el espacio con ellos.
