@@ -147,20 +147,20 @@
     /* Select Your Service style */
     .services-section{ max-width:1200px;margin:2.2em auto;padding:0 2em; }
     .services-header{ text-align:left;margin-bottom:1em }
-  .service-grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:1.15em }
-    .service-card{ background:linear-gradient(180deg, #ffffff, #fbfdff); border-radius:12px; padding:1.1em; box-shadow:0 6px 22px rgba(11,32,56,0.06); border:1px solid rgba(15,53,95,0.06); transition: transform 0.22s ease, box-shadow 0.22s ease }
-    .service-card:hover{ transform: translateY(-8px); box-shadow:0 22px 48px rgba(11,32,56,0.12) }
-    .service-card .ic{ font-size:2.15em; margin-bottom:0.6em }
-    .service-card h3{ margin:0 0 0.5em;color:var(--manacus-primary) }
-    .service-card p{ margin:0;color:#4b5568 }
-  @media (max-width: 1200px){ .service-grid{ grid-template-columns: repeat(3,1fr) } }
-  @media (max-width: 980px){ .service-grid{ grid-template-columns: repeat(2,1fr) } .hero-image img{ width:68% } }
-  @media (max-width: 650px){
-      .hero-content{ flex-direction:column; gap:1.2em }
-      .hero-image{ order: 2; width:100%; justify-content:center }
-      .hero-image img{ width:86%; transform:none }
-      .service-grid{ grid-template-columns: 1fr }
-    }
+    .service-grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:1.15em }
+      .service-card{ background:linear-gradient(180deg, #ffffff, #fbfdff); border-radius:12px; padding:1.1em; box-shadow:0 6px 22px rgba(11,32,56,0.06); border:1px solid rgba(15,53,95,0.06); transition: transform 0.22s ease, box-shadow 0.22s ease }
+      .service-card:hover{ transform: translateY(-8px); box-shadow:0 22px 48px rgba(11,32,56,0.12) }
+      .service-card .ic{ font-size:2.15em; margin-bottom:0.6em }
+      .service-card h3{ margin:0 0 0.5em;color:var(--manacus-primary) }
+      .service-card p{ margin:0;color:#4b5568 }
+    @media (max-width: 1200px){ .service-grid{ grid-template-columns: repeat(3,1fr) } }
+    @media (max-width: 980px){ .service-grid{ grid-template-columns: repeat(2,1fr) } .hero-image img{ width:68% } }
+    @media (max-width: 650px){
+        .hero-content{ flex-direction:column; gap:1.2em }
+        .hero-image{ order: 2; width:100%; justify-content:center }
+        .hero-image img{ width:86%; transform:none }
+        .service-grid{ grid-template-columns: 1fr }
+      }
   </style>
 </head>
 <body>

@@ -58,6 +58,22 @@
     .header-nav { display: flex; gap: 0.6em; flex-wrap: wrap; align-items: center; }
     .header-nav a { background: transparent; color: #fff; padding: 0.45em 0.9em; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.98em; border: 1px solid transparent; transition: background 0.18s, transform 0.18s; }
     .header-nav a:hover { background: rgba(255,209,102,0.12); transform: translateY(-2px); }
+        .services-section{ max-width:1200px;margin:2.2em auto;padding:0 2em; }
+    .services-header{ text-align:left;margin-bottom:1em }
+    .service-grid{ display:grid; grid-template-columns: repeat(2,1fr); gap:1.15em }
+      .service-card{ background:linear-gradient(180deg, #ffffff, #fbfdff); border-radius:12px; padding:1.1em; box-shadow:0 6px 22px rgba(11,32,56,0.06); border:1px solid rgba(15,53,95,0.06); transition: transform 0.22s ease, box-shadow 0.22s ease }
+      .service-card:hover{ transform: translateY(-8px); box-shadow:0 22px 48px rgba(11,32,56,0.12) }
+      .service-card .ic{ font-size:2.15em; margin-bottom:0.6em }
+      .service-card h3{ margin:0 0 0.5em;color:var(--manacus-primary) }
+      .service-card p{ margin:0;color:#4b5568 }
+    @media (max-width: 1200px){ .service-grid{ grid-template-columns: repeat(3,1fr) } }
+    @media (max-width: 980px){ .service-grid{ grid-template-columns: repeat(2,1fr) } .hero-image img{ width:68% } }
+    @media (max-width: 650px){
+        .hero-content{ flex-direction:column; gap:1.2em }
+        .hero-image{ order: 2; width:100%; justify-content:center }
+        .hero-image img{ width:86%; transform:none }
+        .service-grid{ grid-template-columns: 1fr }
+      }
     </style>
 </head>
 <body>
@@ -80,7 +96,22 @@
         En este lugar, algunas familias han desarrollado proyectos para el cuidado y la restauración del bosque, con el objetivo de proteger el hábitat de aves, monos, ardillas y otros animales que comparten el espacio con ellos.
         De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.
         La primera fue en un cultivo agroforestal de cacao, donde la familia detrás de "Chocolate Napol's" ha desarrollado estrategias sostenibles de producción. La segunda fue en un santuario de abejas, llamado "Vibsionary Rescuin the Planet", creado y custodiado por otra familia en un bosque que colinda con el parque de atracciones.
-    </p>   
+    </p> 
+    <h2>Servicios</h2>
+    <section class="services-section">
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="ic">🤝</div>
+          <h3>Capacitación</h3>
+          <p>Talleres y formación para comunidades y técnicos locales.</p>
+        </div>
+        <div class="service-card">
+          <div class="ic">📡</div>
+          <h3>Desarrollo de tecnología</h3>
+          <p>Diseño y desarrollo de soluciones a medida: sensores, firmware y plataformas para análisis acústico.</p>
+        </div>
+      </div>
+    </section>  
     <section class="hero-audio">
         <div class="hero-card card">
             <h3 style="text-align: center; padding-top:12px;">Escucha aquí el paisaje sonoro de la región</h3>
