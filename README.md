@@ -238,7 +238,7 @@
         <img src="src/logo_REC.png" alt="Logo REC" style="max-width:80px;width:auto;height:auto;vertical-align:middle;display:inline-block;background:#f8fafd;margin-left:0.7em;"></p>
   </div>
   <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
-  contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus 
+  contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus s
   </footer>
 </body>
 </html>
