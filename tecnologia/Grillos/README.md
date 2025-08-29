@@ -114,7 +114,7 @@
     </section>
     <section id="sobre">
       <h2>Firmware</h2>
-      <p>Programa de funcionamiento para los grillos. Descarga la version más reciente aquí: <a href="src/audio_recorder.uf2">v1.0.0</a></p>
+      <p>Programa de funcionamiento para los grillos. Descarga la version más reciente aquí: <a href="src/v1.0.1.uf2">v1.0.1</a></p>
       <div style="margin-top:2em; display:flex; gap:2em; flex-wrap:wrap; justify-content:left;">
             <a href="https://docs.google.com/document/d/1kwLbPUh7tB_ICO8ptXz6Q2vYcHChcv4enA8AXWpYvIY/edit?usp=sharing" class="buttons">Manual de instalación</a>
       </div>
