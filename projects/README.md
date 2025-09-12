@@ -17,14 +17,15 @@
       margin-bottom: 1.2em;
       overflow: hidden;
       position: relative;
-      background: #111;
+      /* eliminar fondo gris: la imagen ahora ocupa todo el área */
+      background: none;
     }
-    /* imagen posicionada a la derecha y ligeramente suavizada */
+    /* imagen ocupa todo el banner y se alinea a la derecha */
     .banner-proyecto img.banner-img {
       position: absolute;
       right: 0;
       top: 0;
-      width: 65%;
+      width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: right center;
@@ -32,7 +33,8 @@
       z-index: 0;
       transition: transform 0.3s ease;
     }
-    /* máscara para suavizar la transición hacia la izquierda */
+    /* máscara para suavizar la transición desde la izquierda hacia la imagen:
+       gradiente de opacidad (de blanco -> transparente) colocado encima de la imagen */
     .banner-proyecto::before {
       content: "";
       position: absolute;
@@ -40,7 +42,8 @@
       top: 0;
       bottom: 0;
       width: 55%;
-      background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.0));
+      /* degradado que va de blanco opaco a transparente para que la imagen se desvanezca hacia la izquierda */
+      background: linear-gradient(to right, rgba(255,255,255,0.95), rgba(255,255,255,0.0));
       pointer-events: none;
       z-index: 1;
     }
@@ -67,7 +70,7 @@
 <body>
   <div class="container">
   <div class="banner-proyecto" role="img" aria-label="Banner proyectos">
-    <img src="src/banner-proyectos.png" alt="Banner proyectos" class="banner-img">
+    <img src="src\Banner extended.jpeg" alt="Banner proyectos" class="banner-img">
     <div class="banner-overlay">
       <h2>Proyectos</h2>
       <p>Iniciativas locales que integran tecnología, ciencia y comunidad para proteger la biodiversidad.</p>
