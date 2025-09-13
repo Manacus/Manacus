@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Escuchar para convivir </title>
+    <title> Escuchar para convivir</title>
     <style>
         :root{
           --manacus-primary: #0f355f; /* deep navy */
@@ -97,7 +97,7 @@
         <header class="header-manacus">
                 <div class="header-content">
                     <div class="header-logo">
-                        <img src="/workspaces/Manacus/src/logo_cortado.png" alt="Logo Fundación Manacus" style="background:rgba(32,46,80,0.06);">
+                        <img src="src/MANACUS_BN_SIN_FONDO.png" alt="Logo Fundación Manacus" style="background:rgba(32,46,80,0.06);">
                     </div>
                     <nav class="header-nav">
                         <!-- <a href="../services/">Investigación</a> -->
@@ -110,36 +110,28 @@
         </header>
     <div class="page-frame">
     <h2>Escuchar para convivir: reconstruyendo la historia de Nápoles a través del sonido de los animales</h2>
-    <p>
-        La vereda Nápoles está habitada por familias que recibieron sus tierras tras la incautación y redistribución de la antigua Hacienda Nápoles por parte del gobierno colombiano, después de la muerte de Pablo Escobar. Estos predios se ubican en la frontera de un gran parque de diversiones y cerca de lagos habitados por hipopótamos.
+    <p class="lead">
+        La vereda Nápoles está habitada por familias beneficiarias de programas de redistribución de tierras por parte del gobierno colombiano en una zona históricamente afectada por la violencia. Estos predios se ubican en la frontera de un gran parque de diversiones y cerca de lagos actualmente habitados por hipopótamos.
+
         En este lugar, algunas familias han desarrollado proyectos para el cuidado y la restauración del bosque, con el objetivo de proteger el hábitat de aves, monos, ardillas y otros animales que comparten el espacio con ellos.
         De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.
         La primera fue en un cultivo agroforestal de cacao, donde la familia detrás de "Chocolate Napol's" ha desarrollado estrategias sostenibles de producción. La segunda fue en un santuario de abejas, llamado "Vibsionary Rescuing the Planet", creado y custodiado por otra familia en un bosque que colinda con el parque de atracciones.
+    </p>
+        <h2>¿Cómo lo hicimos?</h2>
+    <ul>
+          <li>Por medio de sensores acústicos Grill@s (https://manacus.github.io/Manacus/tecnologia/Grillos/) instalados en sitios estratégicos dentro de los predios de nuestros aliados locales. </li>
+          <li>Durante el proceso, todos aprendimos a usar estos dispositivos, y ese aprendizaje contribuyó al ajuste de las grabadoras. </li>
+          <li>Además, en cada lugar buscamos la mejor forma de ubicar los equipos para protegerlos de la lluvia y la humedad. </li>
+          <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan los sitios incluso cuando no hay personas cerca.</li> 
+          <li>De esta forma tenemos una información muy fiel sobre la biodiversidad local.</li>
+          <li>Con este ejercicio se obtuvieron grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li>         
+    </ul>
     </p> 
-    <h2>Servicios</h2>
-    <section class="services-section">
-      <div class="service-grid">
-                <div class="service-card">
-                    <div class="ic">🐝
-</div>
-                    <div class="service-media">
-                        <img src="src/capacitacion.jpg" alt="Capacitación foto" onerror="this.style.display='none'">
-                    </div>
-                    <h3>Abejas</h3>
-                    <p>Talleres y formación para comunidades y técnicos locales.</p>
-                    <div class="service-link"><a href="#">Más información</a></div>
-                </div>
-                <div class="service-card">
-                    <div class="ic">🍫</div>
-                    <div class="service-media">
-                        <img src="src/desarrollo_tecnologia.jpg" alt="Desarrollo tecnológico" onerror="this.style.display='none'">
-                    </div>
-                    <h3>Chocolate Napol's</h3>
-                    <p>Diseño y desarrollo de soluciones a medida: sensores, firmware y plataformas para análisis acústico.</p>
-                    <div class="service-link"><a href="#">Más información</a></div>
-                </div>
-      </div>
-    </section>  
+    <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
+    <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
+    <img src="src/Collage.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
+    </div> 
+
     <section class="hero-audio">
         <div class="hero-card card">
             <h3 style="text-align: center; padding-top:12px;">Escucha aquí el paisaje sonoro de la región</h3>
@@ -148,6 +140,23 @@
                 Tu navegador no soporta el elemento de audio.
             </audio>
         </div>
+    </section>
+        <h2>Biodiversidad en las iniciativas locales</h2>
+     <section class="services-section">
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="ic">🐝</div>
+          <h3>Diversidad en el Santuario Vibsionary</h3>
+          <p>XXXXXXXXXXXXXX</p>
+          <p><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener">para mas información entra aqui</a></p>
+        </div>
+        <div class="service-card">
+          <div class="ic">🍫</div>
+          <h3>Compañeros en Chocolate Napol's</h3>
+          <p>XXXXX</p>
+          <p><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener">para mas información entra aqui</a></p>
+        </div>
+      </div>
     </section>
     <h3>A continuación puedes escuchar los sonidos de algunas aves registradas por medio del Monitoreo acústico pasivo en 2025.</h3>
     <div class="container">
@@ -245,8 +254,8 @@
     <h3>Creditos:  </h3>
         <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao</ul>
         <ul>Chocolate Napol’s: Diego Marín, Marcela Bernal, Daniel Marín</ul>
-        <ul>Vibsionary Rescuin the planet: Johan, et al</ul>
-    <h3>Agradecimientos</h3>
+        <ul>Vibsionary Rescuin the planet</ul>
+    <h3>Agradecimientos </h3>
         <ul>Daniel David-Gutierrez</ul>
         contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus
     </footer>
