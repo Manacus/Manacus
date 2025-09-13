@@ -112,26 +112,21 @@
     <h2>Escuchar para convivir: reconstruyendo la historia de Nápoles a través del sonido de los animales</h2>
     <p class="lead">
         La vereda Nápoles está habitada por familias beneficiarias de programas de redistribución de tierras por parte del gobierno colombiano en una zona históricamente afectada por la violencia. Estos predios se ubican en la frontera de un gran parque de diversiones y cerca de lagos actualmente habitados por hipopótamos.
-
         En este lugar, algunas familias han desarrollado proyectos para el cuidado y la restauración del bosque, con el objetivo de proteger el hábitat de aves, monos, ardillas y otros animales que comparten el espacio con ellos.
-        De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.
-        La primera fue en un cultivo agroforestal de cacao, donde la familia detrás de "Chocolate Napol's" ha desarrollado estrategias sostenibles de producción. La segunda fue en un santuario de abejas, llamado "Vibsionary Rescuing the Planet", creado y custodiado por otra familia en un bosque que colinda con el parque de atracciones.
-    </p>
+        De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.</p>
         <h2>¿Cómo lo hicimos?</h2>
-    <ul>
-          <li>Por medio de sensores acústicos Grill@s (https://manacus.github.io/Manacus/tecnologia/Grillos/) instalados en sitios estratégicos dentro de los predios de nuestros aliados locales. </li>
-          <li>Durante el proceso, todos aprendimos a usar estos dispositivos, y ese aprendizaje contribuyó al ajuste de las grabadoras. </li>
-          <li>Además, en cada lugar buscamos la mejor forma de ubicar los equipos para protegerlos de la lluvia y la humedad. </li>
-          <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan los sitios incluso cuando no hay personas cerca.</li> 
-          <li>De esta forma tenemos una información muy fiel sobre la biodiversidad local.</li>
-          <li>Con este ejercicio se obtuvieron grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li>         
+            <ul>
+                      <li>Por medio de sensores acústicos Grill@s (https://manacus.github.io/Manacus/tecnologia/Grillos/) instalados en sitios estratégicos dentro de los predios de nuestros aliados locales. </li>
+                      <li>Durante el proceso, todos aprendimos a usar estos dispositivos, y ese aprendizaje contribuyó al ajuste de las grabadoras. </li>
+                      <li>Además, en cada lugar buscamos la mejor forma de ubicar los equipos para protegerlos de la lluvia y la humedad. </li>
+                      <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan los sitios incluso cuando no hay personas cerca.</li> <li>De esta forma tenemos una información muy fiel sobre la biodiversidad local.</li>
+                      <li>Con este ejercicio se obtuvieron grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li>         
     </ul>
     </p> 
     <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
     <img src="src/Collage.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
     </div> 
-
     <section class="hero-audio">
         <div class="hero-card card">
             <h3 style="text-align: center; padding-top:12px;">Escucha aquí el paisaje sonoro de la región</h3>
@@ -147,14 +142,14 @@
         <div class="service-card">
           <div class="ic">🐝</div>
           <h3>Diversidad en el Santuario Vibsionary</h3>
-          <p>XXXXXXXXXXXXXX</p>
-          <p><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener">para mas información entra aqui</a></p>
+          <p>Santuario de abejas llamado "Vibsionary Rescuing the Planet", creado y custodiado por una familia en un bosque que colinda con el parque de atracciones.</p>
+          <p><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener">para mas información entra aquí</a></p>
         </div>
         <div class="service-card">
           <div class="ic">🍫</div>
           <h3>Compañeros en Chocolate Napol's</h3>
-          <p>XXXXX</p>
-          <p><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener">para mas información entra aqui</a></p>
+          <p>Es un cultivo agroforestal de cacao, donde la familia detrás de "Chocolate Napol's" ha desarrollado estrategias sostenibles de producción.</p>
+          <p><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener">para mas información entra aquí</a></p>
         </div>
       </div>
     </section>
