@@ -30,6 +30,31 @@
         header h1{ margin:0; color:var(--manacus-accent); font-size:1.5em; letter-spacing:-0.6px; }
         /* Contenedor principal con ancho limitado */
         .container{ max-width:1200px; margin:24px auto; padding:0 18px; display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:20px; align-items:start; }
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+                gap:14px;
+                padding:0 8px;
+            }
+            .card img {
+                height:140px;
+            }
+        }
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap:10px;
+                padding:0 4px;
+            }
+            .card {
+                padding-bottom:6px;
+                border-radius:8px;
+            }
+            .card img {
+                height:100px;
+                border-radius:8px 8px 0 0;
+            }
+        }
         /* Tarjetas con estilo coherente */
         .card{ background: linear-gradient(180deg,#ffffff,#fbfdff); border-radius:12px; padding-bottom:10px; overflow:hidden; text-align:center; box-shadow:0 10px 30px rgba(11,32,56,0.06); border:1px solid var(--manacus-card-border); }
         .card img{ width:100%; height:180px; object-fit:cover; display:block; border-bottom:1px solid #eef3fb; }
