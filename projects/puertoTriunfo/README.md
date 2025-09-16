@@ -141,13 +141,13 @@
         De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.</p>
         <h2>¿Cómo lo hicimos?</h2>
             <ul>
-                      <li>Por medio de sensores acústicos Grill@s (https://manacus.github.io/Manacus/tecnologia/Grillos/) instalados en sitios estratégicos dentro de los predios de nuestros aliados locales. </li>
+                      <li>Por medio de <a href="https://manacus.github.io/Manacus/tecnologia/Grillos/" target="_blank" rel="noopener">sensores acústicos Grill@s </a> instalados en sitios estratégicos dentro de los predios de nuestros aliados locales. </li>
                       <li>Durante el proceso, todos aprendimos a usar estos dispositivos, y ese aprendizaje contribuyó al ajuste de las grabadoras. </li>
                       <li>Además, en cada lugar buscamos la mejor forma de ubicar los equipos para protegerlos de la lluvia y la humedad. </li>
                       <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan los sitios incluso cuando no hay personas cerca.</li> <li>De esta forma tenemos una información muy fiel sobre la biodiversidad local.</li>
-                      <li>Con este ejercicio se obtuvieron grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li>         
-    </ul>
-    </p> 
+                      <li>Con este ejercicio se obtuvieron grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li> 
+                      </ul>
+                      </p> 
     <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
     <img src="src/Collage.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
@@ -166,15 +166,15 @@
       <div class="service-grid">
         <div class="service-card">
           <div class="ic">🐝</div>
-          <h3>Diversidad en el Santuario Vibsionary</h3>
-          <p>Santuario de abejas llamado "Vibsionary Rescuing the Planet", creado y custodiado por una familia en un bosque que colinda con el parque de atracciones.</p>
-          <p><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener">para mas información entra aquí</a></p>
+          <h3><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener"> Diversidad en el Santuario "Vibsionary Rescuing the Planet" </a></h3>
+          <p>Santuario de abejas creado y custodiado por una familia en un bosque que colinda con el parque de atracciones.</p>
+          <p><a href="https://www.youtube.com/watch?v=px2sKoVeN0I" target="_blank" rel="noopener">Entra aqui para conocer más sobre esta iniciativa local</a></p>
         </div>
         <div class="service-card">
           <div class="ic">🍫</div>
-          <h3>Compañeros en Chocolate Napol's</h3>
-          <p>Es un cultivo agroforestal de cacao, donde la familia detrás de "Chocolate Napol's" ha desarrollado estrategias sostenibles de producción.</p>
-          <p><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener">para mas información entra aquí</a></p>
+          <h3><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener"> Compañeros en Chocolate Napol's </a> </h3>
+          <p>Es un cultivo agroforestal de cacao, donde la familia ha desarrollado estrategias sostenibles de producción.</p> 
+          <p><a href="https://www.facebook.com/chocolatesnapoles" target="_blank" rel="noopener">Entra aqui para conocer más sobre esta iniciativa local</a></p>
         </div>
       </div>
     </section>
@@ -272,7 +272,7 @@
     </div>
     <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
     <h3>Creditos:  </h3>
-        <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao</ul>
+        <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao, Hoover Pantoja</ul>
         <ul>Chocolate Napol’s: Diego Marín, Marcela Bernal, Daniel Marín</ul>
         <ul>Vibsionary Rescuin the planet</ul>
     <h3>Agradecimientos </h3>
