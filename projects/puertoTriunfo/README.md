@@ -84,6 +84,8 @@
             border-radius:12px;
             box-shadow: 0 12px 36px rgba(11,32,56,0.06);
             border:1px solid rgba(15,53,95,0.06);
+            overflow:hidden;
+            position:relative;
         }
         @media (max-width:700px){ .page-frame{ padding:14px; margin:12px; } }
     /* Reglas del header global (coherencia con la página principal) */
