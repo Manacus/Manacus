@@ -29,7 +29,7 @@
         }
         header h1{ margin:0; color:var(--manacus-accent); font-size:1.5em; letter-spacing:-0.6px; }
         /* Contenedor principal con ancho limitado */
-        .container{ max-width:1200px; margin:24px auto; padding:0 18px; display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:20px; align-items:start; }
+        .container{ max-width:1200px; margin:24px auto; padding:0 18px; display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:20px; align-items:start; overflow:hidden; position:relative; }
         @media (max-width: 900px) {
             .container {
                 grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
