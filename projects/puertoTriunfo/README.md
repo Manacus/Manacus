@@ -257,5 +257,5 @@
         <ul>Daniel David-Gutierrez</ul>
         contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus
     </footer>
-</body>
-</html>
+    </body>
+    </html>
