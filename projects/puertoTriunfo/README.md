@@ -123,7 +123,6 @@
                       <li>De esta forma tenemos una información precisa sobre algunos animales que habitan este territorio. </li>
                       <li>Con este ejercicio obtuvimos grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li> 
                       </ul>
-                      </p> 
     <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
     <img src="src/Collage.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
