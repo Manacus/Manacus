@@ -148,7 +148,7 @@
                       <li>Además, en cada lugar buscamos la mejor forma de ubicar los equipos para protegerlos de la lluvia y la humedad. </li>
                       <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan estos lugares  incluso cuando no hay personas cerca.</li>
                       <li>De esta forma tenemos una información precisa sobre algunos animales que habitan este territorio. </li>
-                      <li>Con este ejercicio obtuvimos grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li> 
+                      <li>Con este ejercicio obtuvimos grabaciones que pudieron ser analizadas para encontrar las <a href="src/Aves_Puerto_Triunfo.pdf" target="_blank" rel="noopener"> especies</a> que habitan en cada sitio.</li> 
                       </ul>
     <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
@@ -170,13 +170,13 @@
         <div class="service-card">
           <div class="ic">🐝</div>
           <h3><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener"> Diversidad en el Santuario "Vibsionary Rescuing the Planet" </a></h3>
-          <p>Santuario de abejas creado y custodiado por una familia en un bosque que colinda con el parque de atracciones. Entra <a href="https://www.youtube.com/watch?v=px2sKoVeN0I" target="_blank" rel="noopener">aqui </a>para conocer más sobre esta iniciativa local</p>
+          <p>Santuario de abejas creado y custodiado por una familia en un bosque que colinda con el parque de atracciones. Entra <a href="https://www.youtube.com/watch?v=px2sKoVeN0I" target="_blank" rel="noopener">aquí </a>para conocer más sobre esta iniciativa local</p>
           <p><a href="https://ebird.org/checklist/S277053898" target="_blank" rel="noopener">Listado completo de aves.</a></p>
           </div>
         <div class="service-card">
           <div class="ic">🍫</div>
           <h3><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener"> Compañeros en Chocolate Napol's </a> </h3>
-          <p>Es un cultivo agroforestal de cacao, donde la familia ha desarrollado estrategias sostenibles de producción. Entra <a href="https://www.facebook.com/chocolatesnapoles" target="_blank" rel="noopener">aqui</a> para conocer más sobre esta iniciativa local.</p>
+          <p>Es un cultivo agroforestal de cacao, donde la familia ha desarrollado estrategias sostenibles de producción. Entra <a href="https://www.facebook.com/chocolatesnapoles" target="_blank" rel="noopener">aquí</a> para conocer más sobre esta iniciativa local.</p>
           <p><a href="https://ebird.org/checklist/S277056154" target="_blank" rel="noopener">Listado completo de aves.</a></p>
         </div>
       </div>
