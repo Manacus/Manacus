@@ -128,10 +128,10 @@
                     </div>
                     <nav class="header-nav">
                         <!-- <a href="../services/">Investigación</a> -->
-                        <a href="../projects/">Proyectos</a>
-                        <a href="../tecnologia/">Tecnología</a>
-                        <a href="../quienes/">¿Quiénes somos?</a>
-                        <a href="../contacto/">Contacto</a>
+                        <a href="https://manacus.github.io/Manacus/projects/">Proyectos</a>
+                        <a href="https://manacus.github.io/Manacus/tecnologia/">Tecnología</a>
+                        <a href="https://manacus.github.io/Manacus/quienes/">¿Quiénes somos?</a>
+                        <a href="https://manacus.github.io/Manacus/contacto/">Contacto</a>
                     </nav>
                 </div>
         </header>
