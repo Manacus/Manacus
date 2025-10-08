@@ -101,10 +101,10 @@
                     </div>
                     <nav class="header-nav">
                         <!-- <a href="../services/">Investigación</a> -->
-                        <a href="../projects/">Proyectos</a>
-                        <a href="../tecnologia/">Tecnología</a>
-                        <a href="../quienes/">¿Quiénes somos?</a>
-                        <a href="../contacto/">Contacto</a>
+                        <a href="https://manacus.github.io/Manacus/projects/" target="_self">Proyectos</a>
+                        <a href="https://manacus.github.io/Manacus/tecnologia/" target="_self">Tecnología</a>
+                        <a href="https://manacus.github.io/Manacus/quienes/" target="_self">¿Quiénes somos?</a>
+                        <a href="https://manacus.github.io/Manacus/contacto/" target="_self">Contacto</a>
                     </nav>
                 </div>
         </header>
