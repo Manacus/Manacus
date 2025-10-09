@@ -130,10 +130,10 @@
                     </div>
                     <nav class="header-nav">
                         <!-- <a href="../services/">Investigación</a> -->
-                        <a href="../projects/">Proyectos</a>
-                        <a href="../tecnologia/">Tecnología</a>
-                        <a href="../quienes/">¿Quiénes somos?</a>
-                        <a href="../contacto/">Contacto</a>
+                        <a href="https://manacus.github.io/Manacus/projects/">Proyectos</a>
+                        <a href="https://manacus.github.io/Manacus/tecnologia/">Tecnología</a>
+                        <a href="https://manacus.github.io/Manacus/quienes/">¿Quiénes somos?</a>
+                        <a href="https://manacus.github.io/Manacus/contacto/">Contacto</a>
                     </nav>
                 </div>
         </header>
@@ -145,13 +145,13 @@
         De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.</p>
         <h2>¿Cómo lo hicimos?</h2>
             <ul>
-                      <li>Por medio de <a href="https://manacus.github.io/Manacus/tecnologia/Grillos/" target="_blank" rel="noopener">sensores acústicos Grill@s </a> instalados en sitios estratégicos dentro de los predios de nuestros aliados locales. </li>
+                      <li>Instalamos <a href="https://manacus.github.io/Manacus/tecnologia/Grillos/" target="_blank" rel="noopener">sensores acústicos Grill@s </a> en el cultivo agroforestal de cacao de Chocolate Napol’s y en el bosque del santuario Vibsionary Rescuing the planet ubicados en Napoles. </li>
                       <li>Durante el proceso, todos aprendimos a usar estos dispositivos, y ese aprendizaje contribuyó al ajuste de las grabadoras. </li>
                       <li>Además, en cada lugar buscamos la mejor forma de ubicar los equipos para protegerlos de la lluvia y la humedad. </li>
-                      <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan los sitios incluso cuando no hay personas cerca.</li> <li>De esta forma tenemos una información muy fiel sobre la biodiversidad local.</li>
-                      <li>Con este ejercicio se obtuvieron grabaciones que pudieron ser analizadas para encontrar las especies que habitan en cada sitio.</li> 
+                      <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan estos lugares  incluso cuando no hay personas cerca.</li>
+                      <li>De esta forma tenemos una información precisa sobre algunos animales que habitan este territorio. </li>
+                      <li>Con este ejercicio obtuvimos grabaciones que pudieron ser analizadas para encontrar las <a href="src/Aves_Puerto_Triunfo.pdf" target="_blank" rel="noopener"> especies</a> que habitan en cada sitio.</li> 
                       </ul>
-                      </p> 
     <div class="seccion-destacada" style="background:#f8fafd;border-radius:12px;padding:1.2em 1em;margin-bottom:0.5em;box-shadow:0 1px 10px rgba(32,46,80,0.06);max-width:1000px;margin-left:auto;margin-right:auto;">
     <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
     <img src="src/Collage.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:#f8fafd">
@@ -159,6 +159,7 @@
     <section class="hero-audio">
         <div class="hero-card card">
             <h3 style="text-align: center; padding-top:12px;">Escucha aquí el paisaje sonoro de la región</h3>
+            <p>Accede a un viaje sonoro construido a partir de los sonidos obtenidos en este ejercicio. Quisimos resaltar las especies que pueden ser escuchadas a medida que avanza el día. Este pequeño viaje empieza en el amanecer, un periodo de gran actividad sonora. A medida que avanza el día, algunos de nuestros músicos emplumados le ceden el turno a los demás, finalizando con esas especies de tonos graves que surgen al anochecer. En todos estos instantes, el entorno revela su identidad a través del eco de la fauna silvestre. Te invitamos a sintonizarte con este paisaje sonoro, recordando nuestra conexión intrínseca con la naturaleza y fomentando la escucha consciente del mundo vivo que nos rodea.</p>
             <audio controls style="display: block; margin: 6px auto;">
                 <source src="src/Puerto triunfo.mp3" type="audio/mp3">
                 Tu navegador no soporta el elemento de audio.
@@ -170,15 +171,15 @@
       <div class="service-grid">
         <div class="service-card">
           <div class="ic">🐝</div>
-          <h3><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener"> Diversidad en el Santuario "Vibsionary Rescuing the Planet" </a></h3>
-          <p>Santuario de abejas creado y custodiado por una familia en un bosque que colinda con el parque de atracciones.</p>
-          <p><a href="https://www.youtube.com/watch?v=px2sKoVeN0I" target="_blank" rel="noopener">Entra aqui para conocer más sobre esta iniciativa local</a></p>
-        </div>
+          <h3><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener"> Diversidad en el Santuario "Vibsionary Rescuing the Planet"</a></h3>
+          <p>Santuario de abejas creado y custodiado por una familia en un bosque que colinda con el parque de atracciones. Entra <a href="https://www.youtube.com/watch?v=px2sKoVeN0I" target="_blank" rel="noopener">aquí </a>para conocer más sobre esta iniciativa local</p>
+          <p><a href="https://ebird.org/checklist/S277053898" target="_blank" rel="noopener">Listado completo de aves.</a></p>
+          </div>
         <div class="service-card">
           <div class="ic">🍫</div>
           <h3><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener"> Compañeros en Chocolate Napol's </a> </h3>
-          <p>Es un cultivo agroforestal de cacao, donde la familia ha desarrollado estrategias sostenibles de producción.</p> 
-          <p><a href="https://www.facebook.com/chocolatesnapoles" target="_blank" rel="noopener">Entra aqui para conocer más sobre esta iniciativa local</a></p>
+          <p>Es un cultivo agroforestal de cacao, donde la familia ha desarrollado estrategias sostenibles de producción. Entra <a href="https://www.facebook.com/chocolatesnapoles" target="_blank" rel="noopener">aquí</a> y <a href="https://www.instagram.com/chocolatesnapolesoficial/" target="_blank" rel="noopener">aquí</a> para conocer más sobre esta iniciativa local.</p>
+          <p><a href="https://ebird.org/checklist/S277056154" target="_blank" rel="noopener">Listado completo de aves.</a></p>
         </div>
       </div>
     </section>
@@ -275,13 +276,15 @@
     </div>
     </div>
     <footer style="width:100%;background:#f8fafd;color:#19306c;text-align:center;padding:1.2em 0;font-size:1.08em;margin-top:2em;box-shadow:0 -1px 8px #19306c22;">
-    <h3>Creditos:  </h3>
-        <ul>Alejandra Osejo-Varona, Angela Mendoza-Henao, Hoover Pantoja</ul>
+    <h3>Creditos:</h3>
+        <ul>Colaboración desarrollada en el marco de la investigacion doctoral en Antropologia “Presencias inusuales en el Magdalena Medio”</ul>
+        <ul>Alejandra Osejo Varona (Rice University) </ul>
+        <ul>Apoyada por el Center for Latin American and Latinx Studies (CELAS) de Rice University</ul>
         <ul>Chocolate Napol’s: Diego Marín, Marcela Bernal, Daniel Marín</ul>
-        <ul>Vibsionary Rescuin the planet</ul>
-    <h3>Agradecimientos </h3>
+        <ul>Equipo Vibsionary Rescuing the planet</ul>
+    <h3>Agradecimientos:</h3>
         <ul>Daniel David-Gutierrez</ul>
         contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 9 0 1 9 5 6 7 5 3 | © 2025 Manacus
     </footer>
-</body>
-</html>
+    </body>
+    </html>
