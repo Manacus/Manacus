@@ -145,7 +145,7 @@
         De febrero a junio de 2025, un grupo interdisciplinario de biólogos, antropólogos e ingenieros nos unimos a estas familias para ayudarlas a escuchar a los animales con los que conviven. Instalamos grabadoras de monitoreo acústico en dos iniciativas de conservación locales.</p>
         <h2>¿Cómo lo hicimos?</h2>
             <ul>
-                      <li>Instalamos <a href="https://manacus.github.io/Manacus/tecnologia/Grillos/" target="_blank" rel="noopener">sensores acústicos Grill@s </a> en el cultivo agroforestal de cacao de Chocolate Napol’s y en el bosque del santuario Vibsionary Rescuing the planet ubicados en Napoles. </li>
+                      <li>Instalamos <a href="https://asimov-dev.com/" target="_blank" rel="noopener">sensores acústicos Grill@s </a> en el cultivo agroforestal de cacao de Chocolate Napol’s y en el bosque del santuario Vibsionary Rescuing the planet ubicados en Napoles. </li>
                       <li>Durante el proceso, todos aprendimos a usar estos dispositivos, y ese aprendizaje contribuyó al ajuste de las grabadoras. </li>
                       <li>Además, en cada lugar buscamos la mejor forma de ubicar los equipos para protegerlos de la lluvia y la humedad. </li>
                       <li>Esta tecnología está diseñada para obtener información acústica de manera contínua, lo que nos permitió conocer cómo suenan estos lugares  incluso cuando no hay personas cerca.</li>
