@@ -169,14 +169,14 @@
       <div class="service-grid">
         <div class="service-card">
           <div class="ic">🐝</div>
-          <h3><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener"> Diversidad en el Santuario "Vibsionary Rescuing the Planet" </a></h3>
+          <h3><a href="src/Ficha especies seleccionadas (Vibsionary).pdf" target="_blank" rel="noopener"> Diversidad en el Santuario "Vibsionary Rescuing the Planet"</a></h3>
           <p>Santuario de abejas creado y custodiado por una familia en un bosque que colinda con el parque de atracciones. Entra <a href="https://www.youtube.com/watch?v=px2sKoVeN0I" target="_blank" rel="noopener">aquí </a>para conocer más sobre esta iniciativa local</p>
           <p><a href="https://ebird.org/checklist/S277053898" target="_blank" rel="noopener">Listado completo de aves.</a></p>
           </div>
         <div class="service-card">
           <div class="ic">🍫</div>
           <h3><a href="src/Ficha especies seleccionadas (Chocolate Napols).pdf" target="_blank" rel="noopener"> Compañeros en Chocolate Napol's </a> </h3>
-          <p>Es un cultivo agroforestal de cacao, donde la familia ha desarrollado estrategias sostenibles de producción. Entra <a href="https://www.facebook.com/chocolatesnapoles" target="_blank" rel="noopener">aquí</a> para conocer más sobre esta iniciativa local.</p>
+          <p>Es un cultivo agroforestal de cacao, donde la familia ha desarrollado estrategias sostenibles de producción. Entra <a href="https://www.facebook.com/chocolatesnapoles" target="_blank" rel="noopener">aquí</a> y <a href="https://www.instagram.com/chocolatesnapolesoficial/" target="_blank" rel="noopener">aquí</a> para conocer más sobre esta iniciativa local.</p>
           <p><a href="https://ebird.org/checklist/S277056154" target="_blank" rel="noopener">Listado completo de aves.</a></p>
         </div>
       </div>
