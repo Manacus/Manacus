@@ -1,7 +1,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="StWd0B-r52YYfce-ykcJZfxL-oWb9af7AhZ-_x0YrIo" />
   <title>Fundación Manacus</title>
   <style>
   @media (max-width: 650px) {
