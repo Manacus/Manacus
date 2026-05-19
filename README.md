@@ -175,6 +175,7 @@
         <a href="tecnologia/">Tecnología</a>
         <a href="quienes/">¿Quiénes somos?</a>
         <a href="contacto/">Contacto</a>
+        <a href="asocanainstrucciones/">Asocaña</a>
       </nav>
     </div>
   </header>
