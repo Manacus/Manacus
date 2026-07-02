@@ -1,99 +1,156 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asocaña Instrucciones Para Análisis de Indicadores</title>
-  <style>
-    :root {
-      --manacus-primary: #0f355f;
-      --manacus-accent: #ffd166;
-      --manacus-muted: #f4f8fb;
-      --manacus-card-border: rgba(15,53,95,0.08);
-    }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; min-height: 100%; }
-    body { font-family: Arial, sans-serif; background: var(--manacus-muted); color: #20232a; }
-    .header-manacus { width: 100%; background: linear-gradient(90deg, var(--manacus-primary), #153a68); color: #fff; box-shadow: 0 2px 18px rgba(11,32,56,0.12); padding: 0.6em 0; position: sticky; top: 0; z-index: 110; border-bottom: 1px solid rgba(255,255,255,0.08); }
-    .header-content { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0 1.5rem; }
-    .header-logo img { height: 48px; width: auto; display: block; filter: brightness(1.05); }
-    .header-nav { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .header-nav a { color: #fff; padding: 0.55em 0.95em; border-radius: 8px; text-decoration: none; font-weight: 700; transition: background 0.18s, transform 0.18s; }
-    .header-nav a:hover { background: rgba(255,209,102,0.14); transform: translateY(-1px); }
-    .page-frame { max-width: 1040px; margin: 1.6rem auto 2rem; padding: 1.8rem; background: #ffffff; border-radius: 16px; box-shadow: 0 16px 40px rgba(11,32,56,0.08); border: 1px solid rgba(15,53,95,0.08); }
-    h1 { margin-top: 0; color: var(--manacus-primary); font-size: 2.1rem; }
-    h2 { color: #153a68; margin-bottom: 0.5rem; }
-    p, li { line-height: 1.7; font-size: 1rem; color: #2b3345; }
-    ul { padding-left: 1.25rem; }
-    a.button { display: inline-block; margin-top: 1rem; padding: 0.85rem 1.3rem; background: var(--manacus-primary); color: #fff; border-radius: 10px; text-decoration: none; font-weight: 700; }
-    .note { background: #f8fbff; border-left: 4px solid var(--manacus-primary); padding: 1rem 1rem 1rem 1rem; margin: 1.4rem 0; border-radius: 12px; }
-    @media (max-width: 720px) { .header-content { flex-direction: column; align-items: stretch; padding: 0 1rem; } }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asocaña Instrucciones Para Análisis de Indicadores</title>
+<style>
+:root {
+--manacus-primary: #0f355f;
+--manacus-accent: #ffd166;
+--manacus-muted: #f4f8fb;
+--manacus-card-border: rgba(15,53,95,0.08);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; min-height: 100%; }
+body { font-family: Arial, sans-serif; background: var(--manacus-muted); color: #20232a; }
+.header-manacus { width: 100%; background: linear-gradient(90deg, var(--manacus-primary), #153a68); color: #fff; box-shadow: 0 2px 18px rgba(11,32,56,0.12); padding: 0.6em 0; position: sticky; top: 0; z-index: 110; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.header-content { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0 1.5rem; }
+.header-logo img { height: 48px; width: auto; display: block; filter: brightness(1.05); }
+.header-nav { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.header-nav a { color: #fff; padding: 0.55em 0.95em; border-radius: 8px; text-decoration: none; font-weight: 700; transition: background 0.18s, transform 0.18s; }
+.header-nav a:hover { background: rgba(255,209,102,0.14); transform: translateY(-1px); }
+.page-frame { max-width: 1040px; margin: 1.6rem auto 2rem; padding: 1.8rem; background: #ffffff; border-radius: 16px; box-shadow: 0 16px 40px rgba(11,32,56,0.08); border: 1px solid rgba(15,53,95,0.08); }
+h1 { margin-top: 0; color: var(--manacus-primary); font-size: 2.1rem; }
+h2 { color: #153a68; margin-bottom: 0.5rem; }
+p, li { line-height: 1.7; font-size: 1rem; color: #2b3345; }
+ul { padding-left: 1.25rem; }
+a.button { display: inline-block; margin-top: 1rem; padding: 0.85rem 1.3rem; background: var(--manacus-primary); color: #fff; border-radius: 10px; text-decoration: none; font-weight: 700; }
+.note { background: #f8fbff; border-left: 4px solid var(--manacus-primary); padding: 1rem 1rem 1rem 1rem; margin: 1.4rem 0; border-radius: 12px; }
+@media (max-width: 720px) { .header-content { flex-direction: column; align-items: stretch; padding: 0 1rem; } }
+section { scroll-margin-top: 96px; margin-bottom: 2.2rem; }
+.brand-text { color: #fff; font-weight: 800; text-decoration: none; letter-spacing: 0.02em; }
+.section-card { background: #fff; border: 1px solid var(--manacus-card-border); border-radius: 14px; padding: 1.2rem; margin: 1.2rem 0; box-shadow: 0 8px 24px rgba(11,32,56,0.04); }
+.indicator-title { border-top: 1px solid var(--manacus-card-border); padding-top: 1.5rem; margin-top: 2rem; }
+.subheading { color: var(--manacus-primary); font-weight: 800; margin: 1.1rem 0 0.35rem; }
+.formula { background: #f8fbff; border: 1px solid var(--manacus-card-border); border-radius: 12px; padding: 1rem; font-weight: 700; color: #153a68; }
+a.citation, .references a { color: #0f355f; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.references li { margin-bottom: 0.9rem; }
+</style>
 </head>
 <body>
-  <main class="page-frame">
-    <h1>Instrucciones de visualización y explicación de indicadores</h1>
-    
-    <h2>1. Instrucciones para visualización de datos</h2>
-    <p></p>
-    
-    <h2>2. Explicación de indicadores</h2>
-    <p>El Convenio sobre la Diversidad Biológica establece en su artículo 14 la necesidad de evaluar los impactos positivos o negativos, generados por proyectos humanos sobre la biodiversidad, para lo cual las estrategias de monitoreo son instrumentos predictivos fundamentales. Además de los indicadores tradicionales basados en vegetación, suelo o presencia de fauna, el monitoreo acústico pasivo ofrece una alternativa útil y costo-efectiva para registrar de manera continua la actividad de organismos vocalmente activos y caracterizar cambios en los paisajes sonoros asociados a la recuperación del hábitat (Sueur & Farina, 2015; Bradfer-Lawrence et al., 2019).</p>
-    <p>Dichas estrategias de monitoreo requieren indicadores cuidadosamente diseñados que sean cuantificables, replicables, comunicables y de fácil interpretación (Nicholson et al. 2012), con objetivos claros (BIP 2010; Hsu et al. 2013). Estos indicadores deben ser costo-efectivos, sensibles estadísticamente, específicos al cambio de interés, con línea base clara y basados en medidas científicamente válidas de biodiversidad. Sin embargo, cumplir estas características es históricamente complejo debido a la complejidad e incertidumbre de los sistemas biológicos (Feld et al. 2009; Souza et al. 2014; Bigard et al. 2017; da Silva Dias et al. 2017; Clements y Ozgul 2018; de Morais et al. 2018), especialmente por la contexto-dependencia del funcionamiento de los indicadores (Lindemayer et al. 2015). Como solución, se propone utilizar indicadores acústicos con diseño de muestreo comparativo que disminuya la variabilidad mediante mediciones respecto a áreas de referencia no afectadas por intervención humana.</p>
-    
-    <h3>Metodología de muestreo</h3>
-    <p>La evaluación de indicadores se propone mediante un diseño comparativo que contrasta un área de referencia sin intervención (control) con el área proyectada a ser intervenida, asegurando que ambas zonas sean similares en características vegetales y topográficas. Los tipos de coberturas dominantes se clasifican siguiendo categorías como Corine Land Cover CLC y los muestreos se realizan periódicamente, permitiendo la identificación de cambios atribuibles al efecto de la intervención y no a la temporalidad o tendencias globales.</p>
-    <p>Los datos se contrastan mediante pruebas estadísticas como Rangos de Wilcoxon o T-student, o modelos mixtos lineales generalizados GLMM, concluyendo diferencias significativas (P &lt; 0.05) entre el área de influencia y el control, atribuibles al efecto de la intervención. Para incluir el efecto de la distancia, se utilizan diseños comparativos pareados (ANOVA) o pruebas no paramétricas como la de Friedman cuando no se cumplan los criterios paramétricos.</p>
-    <figure style="text-align:center; margin: 1.4rem 0;">
-      <img src="comparacionIndicadores.png" alt="Comparación de indicadores" style="max-width:100%; border-radius:10px; border:1px solid var(--manacus-card-border);">
-      <figcaption style="font-size:0.9rem; color:#555; margin-top:0.5rem;">Figura. Comparación de indicadores entre áreas de referencia e intervención.</figcaption>
-    </figure>
-    
-    <h3>1. Composición acústica</h3>
-    <h4>Definición</h4>
-    <p>Los sonidos producidos por la fauna, son componentes fundamentales de la huella acústica de un sitio determinado. Dicha huella representa rasgos generales de la composición faunística predominante y puede generarse a partir de una representación visual tiempo vs frecuencia, presentando la amplitud promedio de las componentes de frecuencia durante periodos de 24 horas (Figura). En este tipo de representación, la recurrencia de ciertos componentes de frecuencia a lo largo de los días, constituye una fuente de información ideal para realizar una comparación generalizada de la composición acústica faunística entre sitios de muestreo. Adicionalmente, el escalamiento multidimensional no métrico, permite usar dos dimensiones arbitrarias (X y Y), para realizar comparaciones a partir de las distancias en dos dimensiones, calculadas entre las huellas. <br>Dado que la composición acústica de un sitio de muestreo es altamente sensible a cambios estructurales del entorno. Se propone la distancia media entre las huellas acústicas obtenidas durante el muestreo, como primer indicador de cambio, asociado al proceso de restauración. </p>
-    <h4>Cálculo</h4>
-    <p>Las huellas de cada punto de muestreo se generaron, para cada día, usando el promedio del espectro de potencia de las 0 a las 24 horas (eje X) y analizando frecuencias de 0 a 24 kHz (eje Y). Esta representación genera una matriz A de 24x24, la cual se normaliza respecto a la moda, expresando los valores en decibeles de la siguiente manera 20log10(A/moda(A)) dB y seleccionando los valores de potencia más intensos, mayores al tercer cuartil de la distribución de potencia. <br>Mediante un escalamiento dimensional no métrico, se genera una representación de todas las huellas en un plano de dos dimensiones, donde la huella acústica de cada día tiene una ubicación determinada en X y Y. La ubicación de las huellas en el plano entre los puntos de intervención y referencia sirve como indicador de cambio. </p>
-    <h4>Interpretación</h4>
-    <p>La diferencia entre las huellas de los sitios de intervención y referencia es un indicador de cambios en la composición acústica de la fauna presente en los sitios. A medida que la restauración produzca que comunidades sonoras similares a los puntos de referencia predominen en los sitios intervenidos, se espera que la distancia entre huellas se reduzca.</p>
-    <h4>Bibliografía</h4>
-    <p></p>
-    
-    <h3>2. Número de picos y saturación espectral</h3>
-    <h4>Definición</h4>
-    <p>El número de picos en el espectro de potencia y la cobertura espectral están directamente relacionados con la actividad acústica general de un sitio. Cabe aclarar que estas características no se pueden relacionar directamente con la abundancia o diversidad faunística de un sitio. Sin embargo, pueden usarse para comparar la estructura general de la composición acústica, entre sitios de muestreo. En este modelo comparativo, estas características sirven para comparar la actividad acústica general entre sitios.</p>
-    <h4>Cálculo</h4>
-    <p>El número de picos se calculó a partir del espectro de potencias de cada grabación, contando el promedio de picos de potencia por cada hora de grabación. La cobertura espectral se calculó como el porcentaje de la huella acústica cuyos valores son mayores a 0, es decir, el porcentaje de valores en la huella que pertenecen al tercer cuartil en la distribución de potencia. </p>
-    <h4>Interpretación</h4>
-    <p></p>
-    <h4>Bibliografía</h4>
-    <p></p>
-  
-    
-    <h3>3. Bandas de frecuencia</h3>
-    <h4>Definición</h4>
-    <p>La saturación de bandas de frecuencia determinadas está comúnmente relacionada con la actividad acústica de una o un conjunto de especies que emiten sonidos en rangos de frecuencia cercanos. Por lo tanto, la comparación entre bandas de frecuencia, permite estimar cambios entre comunidades de organismos que emiten sonidos en esta banda. </p>
-    <h4>Cálculo</h4>
-    <p>Para comparar bandas de frecuencia se utilizaron ocho coeficientes cepstrales en la escala de Mel, con frecuencias centrales: 1.1, 1.9, 3.1, 4.8, 7.3, 10.9, 16.2 kHz. Estos coeficientes redistribuyen los rangos de frecuencia, dando más detalle a las frecuencias bajas. El valor de cada coeficiente corresponde a una representación de la potencia calculada alrededor de la frecuencia central. </p>
-    <h4>Interpretación</h4>
-    <p>Una comparación inicial de los coeficientes muestra diferencias significativas entre referencias e intervenciones, especialmente en la banda de frecuencia central 1.9 kHz. Esta banda puede servir como indicadora para el proceso de restauración.</p>
-    <h4>Bibliografía</h4>
-    <p></p>
-    
-    <h3>4. Proporción de aves indicadoras</h3>
-    <h4>Definición</h4>
-    <p>Las aves son un grupo útil para el seguimiento de procesos de restauración ecológica, debido a que muchas especies responden a cambios en la estructura de la vegetación, la disponibilidad de recursos, la conectividad del paisaje y el grado de intervención del hábitat. En áreas previamente usadas para cultivos de caña, la recuperación de la cobertura vegetal y de la complejidad estructural puede favorecer progresivamente la presencia de especies asociadas a condiciones de hábitat más complejas. Por esta razón, la proporción de aves indicadoras se propone como una medida comparativa para evaluar qué tanto la comunidad de aves detectada en cada sitio refleja una trayectoria deseable de restauración. Esta aproximación es consistente con estudios que han usado monitoreo acústico pasivo para evaluar procesos de restauración y recuperación de comunidades de aves en ecosistemas tropicales, así como con el uso de aves como taxón indicador dentro de análisis acústicos de restauración ecológica. </p>
-    <h4>Cálculo</h4>
-    <p>Se realizó un análisis de las aves presentes en cada sitio usando BirdNET, una herramienta de identificación automática de aves por sonido basada en redes neuronales profundas.
-      <br>Posteriormente, los cortes acústicos detectados fueron revisados por una experta en aves, quien validó las detecciones y depuró la lista de especies presentes en cada sitio. Esta misma persona definió cuáles de las especies detectadas podrían considerarse aves indicadoras, ya fuera por su condición de especie endémica, casi endémica, por su papel ecológico como dispersora, o por su asociación con condiciones de hábitat relevantes para el proceso de restauración. A partir del total de especies detectadas en cada sitio, se calculó el porcentaje de especies indicadoras mediante la siguiente fórmula:
-      <br>Porcentaje de aves indicadoras = (número de especies indicadoras detectadas en el sitio / número total de especies de aves detectadas en el sitio) × 100. 
-      <br>En este caso, el indicador se calcula con base en la riqueza de especies detectadas por sitio, no en el número total de detecciones acústicas. Es decir, cada especie validada cuenta una vez dentro del sitio correspondiente. </p>
-    <h4>Interpretación</h4>
-    <p>Un mayor porcentaje de aves indicadoras puede interpretarse como una señal positiva dentro del proceso de restauración, especialmente si los sitios intervenidos presentan valores cercanos a los observados en los sitios de referencia. Esto sugeriría que la composición de aves detectada acústicamente incluye una mayor representación de especies con valor ecológico para la restauración, como especies endémicas, casi endémicas o dispersoras.<br>Por el contrario, un porcentaje bajo de aves indicadoras puede sugerir que el sitio aún está dominado por especies generalistas o asociadas a ambientes abiertos y simplificados. Sin embargo, este indicador no debe interpretarse como una medida directa de abundancia ni como una evaluación completa de la comunidad de aves, sino como una métrica comparativa que debe analizarse junto con otros indicadores acústicos, la estructura de la vegetación y las condiciones ecológicas de cada sitio. </p>
-    <h4>Bibliografía</h4>
-    <p></p>
-    
-    <a class="button" href="https://manacus.github.io/Manacus/">Volver al inicio</a>
-  </main>
+<header class="header-manacus">
+<div class="header-content">
+<a class="brand-text" href="#inicio" aria-label="Inicio">Asocaña | Indicadores</a>
+<nav class="header-nav" aria-label="Navegación principal">
+<a href="#introduccion">Introducción</a>
+<a href="#metodologia">Metodología</a>
+<a href="#analisis">Análisis</a>
+<a href="#indicadores">Indicadores</a>
+<a href="#bibliografia">Bibliografía</a>
+</nav>
+</div>
+</header>
+
+<main class="page-frame" id="inicio">
+<section id="introduccion">
+<h1>Instrucciones Para Análisis de Indicadores</h1>
+<h2>Introducción</h2>
+<p>El <a class="citation" href="https://www.cbd.int/convention/articles/default.shtml?a=cbd-14" target="_blank" rel="noopener">Convenio sobre la Diversidad Biológica</a> establece en su artículo 14 la necesidad de evaluar los impactos positivos o negativos, generados por proyectos humanos sobre la biodiversidad, para lo cual las estrategias de monitoreo son instrumentos predictivos fundamentales. Además de los indicadores tradicionales basados en vegetación, suelo o presencia de fauna, el monitoreo acústico pasivo ofrece una alternativa útil y costo-efectiva para registrar de manera continua la actividad de organismos vocalmente activos y caracterizar cambios en los paisajes sonoros asociados a la recuperación del hábitat (<a class="citation" href="#ref-sueur-farina-2015">Sueur &amp; Farina, 2015</a>; <a class="citation" href="https://doi.org/10.1111/2041-210X.13254" target="_blank" rel="noopener">Bradfer-Lawrence et al., 2019</a>).</p>
+<p>Dichas estrategias de monitoreo requieren indicadores cuidadosamente diseñados que sean cuantificables, replicables, comunicables y de fácil interpretación (<a class="citation" href="https://doi.org/10.1371/journal.pone.0041128" target="_blank" rel="noopener">Nicholson et al. 2012</a>), con objetivos claros (<a class="citation" href="https://www.cbd.int/doc/meetings/ind/ahteg-sp-ind-01/other/ahteg-sp-ind-01-bipnational-en.pdf" target="_blank" rel="noopener">BIP 2010</a>; Hsu et al. 2013). Estos indicadores deben ser costo-efectivos, sensibles estadísticamente, específicos al cambio de interés, con línea base clara y basados en medidas científicamente válidas de biodiversidad. Sin embargo, cumplir estas características es históricamente complejo debido a la complejidad e incertidumbre de los sistemas biológicos (<a class="citation" href="https://doi.org/10.1111/j.1600-0706.2009.17860.x" target="_blank" rel="noopener">Feld et al. 2009</a>; <a class="citation" href="https://doi.org/10.1111/gcb.12709" target="_blank" rel="noopener">Souza et al. 2014</a>; <a class="citation" href="https://doi.org/10.1016/j.jenvman.2017.05.057" target="_blank" rel="noopener">Bigard et al. 2017</a>; <a class="citation" href="https://doi.org/10.1016/j.pecon.2017.06.001" target="_blank" rel="noopener">da Silva Dias et al. 2017</a>; <a class="citation" href="https://doi.org/10.1111/ele.12948" target="_blank" rel="noopener">Clements y Ozgul 2018</a>; <a class="citation" href="https://doi.org/10.1016/j.ecolind.2018.01.027" target="_blank" rel="noopener">de Morais et al. 2018</a>), especialmente por la contexto-dependencia del funcionamiento de los indicadores (<a class="citation" href="https://www.sciencedirect.com/science/article/abs/pii/S0048969715305593" target="_blank" rel="noopener">Lindemayer et al. 2015</a>). Como solución, se propone utilizar indicadores acústicos con diseño de muestreo comparativo que disminuya la variabilidad mediante mediciones respecto a áreas de referencia no afectadas por intervención humana.</p>
+</section>
+
+<section id="metodologia">
+<h2>Metodología de muestreo</h2>
+<p>El monitoreo acústico se inició en marzo de 2026 y se mantuvo durante los meses posteriores con el fin de construir una línea base acústica y evaluar cambios temporales asociados a los procesos de intervención y restauración. Para la recolección de datos se utilizaron grabadoras AudioMoth y sensores acústicos Grillos, instalados en árboles o arbustos a una altura superior a 1,5 m sobre el suelo. Ambos tipos de sensores fueron configurados bajo el mismo esquema de muestreo: grabaciones de un minuto cada 30 minutos durante las 24 horas del día, con una tasa de muestreo de 48 kHz, permitiendo obtener 48 grabaciones diarias por punto.</p>
+<p>El diseño de muestreo se estructuró de forma comparativa, seleccionando para cada río tres puntos de referencia y tres puntos de intervención. Los puntos de referencia correspondieron, en la medida de lo posible, a relictos de bosque o áreas con mayor cobertura vegetal conservada, mientras que los puntos de intervención se ubicaron en zonas en ese momento o históricamente destinadas al cultivo de caña de azúcar y consideradas como sitios potenciales para restauración ecológica. Los puntos de grabación fueron separados por al menos 400 m entre sí, con el fin de reducir la dependencia espacial entre registros y favorecer una distribución adecuada de los sensores en el paisaje, siguiendo criterios empleados en estudios ecoacústicos previos (Martínez-Arias et al., 2026).</p>
+<p>La ubicación de los puntos buscó representar de manera comparativa las condiciones de referencia e intervención en cada río, considerando aspectos generales como cercanía al cauce, cobertura vegetal, uso del suelo y características del paisaje. Las coberturas dominantes fueron clasificadas siguiendo categorías de referencia como Corine Land Cover, con el fin de caracterizar el contexto ecológico de cada punto y considerar posibles diferencias entre sitios durante los análisis. Esta aproximación reconoció que la representatividad del monitoreo acústico dependió no solo del número de sensores instalados, sino también de su distribución espacial en relación con la heterogeneidad del paisaje (<a class="citation" href="#ref-sueur-farina-2015">Sueur &amp; Farina, 2015</a>; <a class="citation" href="https://doi.org/10.1111/2041-210X.13254" target="_blank" rel="noopener">Bradfer-Lawrence et al., 2019</a>; Martínez-Arias et al., 2026).</p>
+
+<figure style="text-align:center; margin: 1.4rem 0;">
+<img src="comparacionIndicadores.png" alt="Comparación de indicadores" style="max-width:100%; border-radius:10px; border:1px solid var(--manacus-card-border);">
+<figcaption style="font-size:0.9rem; color:#555; margin-top:0.5rem;">Figura. Comparación de indicadores entre áreas de referencia e intervención.</figcaption>
+</figure>
+</section>
+
+<section id="analisis">
+<h2>Análisis de datos</h2>
+<p>El cálculo de los índices acústicos, así como la estimación de la composición y proporción de especies, se desarrolló en los apartados siguientes. Estas variables fueron utilizadas como indicadores de la condición acústica y biológica de cada punto de muestreo, permitiendo comparar los sitios de referencia con los sitios de intervención en cada río.</p>
+<p>Las variables obtenidas fueron analizadas mediante modelos lineales generalizados mixtos, considerando el tipo de sitio —referencia o intervención— como variable explicativa principal. Además, se incorporaron factores espaciales y temporales asociados al diseño de muestreo, como el río, el punto de grabación y el periodo de registro, con el fin de controlar la variabilidad propia del monitoreo y evitar asumir independencia entre registros pertenecientes a un mismo sitio.</p>
+<p>Este enfoque permitió evaluar diferencias entre las condiciones de referencia e intervención, así como generar una línea base para el seguimiento de posibles cambios en los paisajes sonoros, la composición de especies y la respuesta biológica asociada a los procesos de restauración ecológica.</p>
+</section>
+
+<section id="indicadores">
+<h2>Indicadores</h2>
+
+<article class="section-card" id="huella-acustica">
+<h2 class="indicator-title">Huella Acústica</h2>
+<p class="subheading">Definición</p>
+<p>Los sonidos producidos por la fauna son componentes fundamentales de la huella acústica de un sitio determinado. Dicha huella representa rasgos generales de la composición faunística predominante y puede generarse a partir de una representación visual tiempo vs frecuencia, presentando la amplitud promedio de las componentes de frecuencia durante periodos de 24 horas (Figura). En este tipo de representación, la recurrencia de ciertos componentes de frecuencia a lo largo de los días constituye una fuente de información ideal para realizar una comparación generalizada de la composición acústica faunística entre sitios de muestreo. Adicionalmente, el escalamiento multidimensional no métrico permite usar dos dimensiones arbitrarias (X y Y), para realizar comparaciones a partir de las distancias en dos dimensiones, calculadas entre las huellas.</p>
+<p>Dado que la composición acústica de un sitio de muestreo es altamente sensible a cambios estructurales del entorno. Se propone la distancia media entre las huellas acústicas obtenidas durante el muestreo, como primer indicador de cambio, asociado al proceso de restauración.</p>
+<p class="subheading">Cálculo</p>
+<p>Las huellas de cada punto de muestreo se generaron, para cada día, usando el promedio del espectro de potencia de las 0 a las 24 horas (eje X) y analizando frecuencias de 0 a 24 kHz (eje Y). Esta representación generó una matriz A de 24x24, la cual fue normalizada respecto a la moda, expresando los valores en decibeles de la siguiente manera <span class="formula">20log<sub>10</sub>(A/moda(A)) dB</span> y seleccionando los valores de potencia más intensos, mayores al tercer cuartil de la distribución de potencia.</p>
+<p>Mediante un escalamiento dimensional no métrico, se generó una representación de todas las huellas en un plano de dos dimensiones, donde la huella acústica de cada día tuvo una ubicación determinada en X y Y. La ubicación de las huellas en el plano entre los puntos de intervención y referencia sirvió como indicador de cambio.</p>
+<p class="subheading">Interpretación</p>
+<p>La diferencia entre las huellas de los sitios de intervención y referencia fue un indicador de cambios en la composición acústica de la fauna presente en los sitios. A medida que la restauración produjo que comunidades sonoras similares a los puntos de referencia predominaran en los sitios intervenidos, se esperaba que la distancia entre huellas se redujera.</p>
+</article>
+
+<article class="section-card" id="picos-cobertura-espectral">
+<h2 class="indicator-title">Número de picos y cobertura espectral</h2>
+<p class="subheading">Definición</p>
+<p>El número de picos en el espectro de potencia y la cobertura espectral están directamente relacionados con la actividad acústica general de un sitio. Cabe aclarar que estas características no se pueden relacionar directamente con la abundancia o diversidad faunística de un sitio. Sin embargo, pueden usarse para comparar la estructura general de la composición acústica, entre sitios de muestreo. En este modelo comparativo, estas características sirven para comparar la actividad acústica general entre sitios.</p>
+<p class="subheading">Cálculo</p>
+<p>El número de picos se calculó a partir del espectro de potencias de cada grabación, contando el promedio de picos de potencia por cada hora de grabación. La cobertura espectral se calculó como el porcentaje de la huella acústica cuyos valores fueron mayores a 0, es decir, el porcentaje de valores en la huella que pertenecieron al tercer cuartil en la distribución de potencia.</p>
+<p class="subheading">Interpretación</p>
+<p>Valores más altos en el número de picos y en la cobertura espectral se interpretan como una mayor actividad acústica general o como una mayor ocupación del espacio de frecuencias dentro del paisaje sonoro. En el contexto comparativo del monitoreo, si los sitios de intervención presentan valores progresivamente más cercanos a los sitios de referencia, esto puede sugerir una recuperación de la estructura acústica general del sitio. Sin embargo, estos indicadores deben interpretarse con cautela, porque valores altos también pueden estar asociados a ruido ambiental, actividad de pocas especies dominantes, insectos, lluvia u otros eventos sonoros puntuales. Por ello, su lectura debe hacerse junto con la huella acústica, las bandas de frecuencia, la proporción de aves indicadoras y la comunidad de aves.</p>
+</article>
+
+<article class="section-card" id="bandas-frecuencias">
+<h2 class="indicator-title">Bandas de frecuencias</h2>
+<p class="subheading">Definición</p>
+<p>La saturación de bandas de frecuencia determinadas está comúnmente relacionada con la actividad acústica de una o un conjunto de especies que emiten sonidos en rangos de frecuencia cercanos. Por lo tanto, la comparación entre bandas de frecuencia permite estimar cambios entre comunidades de organismos que emiten sonidos en esta banda.</p>
+<p class="subheading">Cálculo</p>
+<p>Para comparar bandas de frecuencia se utilizaron ocho coeficientes cepstrales en la escala de Mel, con frecuencias centrales: 1.1, 1.9, 3.1, 4.8, 7.3, 10.9, 16.2 kHz. Estos coeficientes redistribuyeron los rangos de frecuencia, dando más detalle a las frecuencias bajas. El valor de cada coeficiente correspondió a una representación de la potencia calculada alrededor de la frecuencia central.</p>
+<p class="subheading">Interpretación</p>
+<p>Una comparación inicial de los coeficientes mostró diferencias significativas entre referencias e intervenciones, especialmente en la banda de frecuencia central 1.9 kHz. Esta banda pudo servir como indicadora para el proceso de restauración.</p>
+</article>
+
+<article class="section-card" id="aves-indicadoras">
+<h2 class="indicator-title">Proporción de aves indicadoras</h2>
+<p class="subheading">Definición</p>
+<p>Las aves son un grupo útil para el seguimiento de procesos de restauración ecológica, debido a que muchas especies responden a cambios en la estructura de la vegetación, la disponibilidad de recursos, la conectividad del paisaje y el grado de intervención del hábitat. En áreas previamente usadas para cultivos de caña, la recuperación de la cobertura vegetal y de la complejidad estructural puede favorecer progresivamente la presencia de especies asociadas a condiciones de hábitat más complejas. Por esta razón, la proporción de aves indicadoras se propone como una medida comparativa para evaluar qué tanto la comunidad de aves detectada en cada sitio refleja una trayectoria deseable de restauración. Esta aproximación es consistente con estudios que usan monitoreo acústico pasivo para evaluar procesos de restauración y recuperación de comunidades de aves en ecosistemas tropicales, así como con el uso de aves como taxón indicador dentro de análisis acústicos de restauración ecológica.</p>
+<p class="subheading">Cálculo</p>
+<p>Se realizó un análisis de las aves presentes en cada sitio usando BirdNET, una herramienta de identificación automática de aves por sonido basada en redes neuronales profundas.</p>
+<p>Posteriormente, los cortes acústicos detectados fueron revisados por una experta en aves, quien validó las detecciones y depuró la lista de especies presentes en cada sitio. Esta misma persona definió cuáles de las especies detectadas podrían considerarse aves indicadoras, ya fuera por su condición de especie endémica, casi endémica, por su papel ecológico como dispersora, o por su asociación con condiciones de hábitat relevantes para el proceso de restauración. A partir del total de especies detectadas en cada sitio, se calculó el porcentaje de especies indicadoras mediante la siguiente fórmula:</p>
+<p class="formula">Porcentaje de aves indicadoras = (número de especies indicadoras detectadas en el sitio / número total de especies de aves detectadas en el sitio) × 100.</p>
+<p>En este caso, el indicador se calculó con base en la riqueza de especies detectadas por sitio, no en el número total de detecciones acústicas. Es decir, cada especie validada contó una vez dentro del sitio correspondiente.</p>
+<p class="subheading">Interpretación</p>
+<p>Un mayor porcentaje de aves indicadoras pudo interpretarse como una señal positiva dentro del proceso de restauración, especialmente si los sitios intervenidos presentaron valores cercanos a los observados en los sitios de referencia. Esto sugirió que la composición de aves detectada acústicamente incluyó una mayor representación de especies con valor ecológico para la restauración, como especies endémicas, casi endémicas o dispersoras.</p>
+<p>Por el contrario, un porcentaje bajo de aves indicadoras pudo sugerir que el sitio aún estaba dominado por especies generalistas o asociadas a ambientes abiertos y simplificados. Sin embargo, este indicador no debió interpretarse como una medida directa de abundancia ni como una evaluación completa de la comunidad de aves, sino como una métrica comparativa que debió analizarse junto con otros indicadores acústicos, la estructura de la vegetación y las condiciones ecológicas de cada sitio.</p>
+</article>
+
+<article class="section-card" id="comunidad-aves">
+<h2 class="indicator-title">Comunidad de Aves</h2>
+<p class="subheading">Definición</p>
+<p>La comunidad de aves se evalúa como un indicador complementario del proceso de restauración, a partir de la composición de especies detectadas acústicamente en cada sitio. Este análisis permite comparar qué tan similares o diferentes son los sitios de intervención y referencia en términos de las aves presentes, así como identificar cuáles especies están asociadas a cada sitio, cuáles son compartidas entre varios puntos de muestreo y cuáles dominan la estructura general de la comunidad. El uso de monitoreo acústico pasivo y herramientas automatizadas de identificación, complementadas con revisión experta, permite procesar grandes volúmenes de información sonora y generar aproximaciones útiles para evaluar cambios en comunidades de aves durante procesos de restauración ecológica (<a class="citation" href="#ref-kahl-2021">Kahl et al., 2021</a>; <a class="citation" href="#ref-ramesh-2023">Ramesh et al., 2023</a>).</p>
+<p class="subheading">Cálculo</p>
+<p>Con la lista validada de especies se construyó una matriz de comunidad, relacionando cada sitio de muestreo con las especies detectadas. A partir de esta matriz se realizó un análisis multivariado de ordenación para representar los sitios en dos dimensiones según su composición de aves. En esta representación, los sitios que aparecieron más cercanos entre sí presentaron una comunidad de aves más similar, mientras que los sitios más separados presentaron una composición más diferente. También se generó una representación de especies en el mismo espacio de análisis, lo que permitió observar cuáles especies contribuyeron más a la diferenciación entre sitios.</p>
+<p>De manera complementaria, se elaboraron gráficos de relación entre sitios y especies detectadas. Estos gráficos permitieron visualizar qué especies fueron registradas en cada sitio, cuáles fueron compartidas por varios sitios y cuáles presentaron mayor número de detecciones. Esta información ayudó a interpretar no solo la riqueza total de especies por punto, sino también la estructura de dominancia de la comunidad, es decir, si un sitio estuvo dominado por pocas especies muy frecuentes o si presentó una composición más distribuida entre varias especies.</p>
+<p class="subheading">Interpretación</p>
+<p>La ubicación de los sitios en el análisis de ordenación permitió interpretar diferencias en la composición de la comunidad de aves. Si los sitios de intervención se ubicaron cerca de los sitios de referencia, esto sugirió que compartieron una composición de aves relativamente similar. Por el contrario, si los sitios intervenidos aparecieron separados de las referencias, esto indicó que la comunidad de aves detectada acústicamente aún difería entre tratamientos o condiciones de restauración. Este tipo de análisis fue útil porque permitió evaluar la composición de la comunidad como un conjunto, no solo especie por especie.</p>
+<p>Los gráficos de relación sitio-especie complementaron esta interpretación al mostrar cuáles especies explicaron parte de esas diferencias. Por ejemplo, permitieron identificar especies presentes en varios sitios, especies restringidas a ciertos puntos y especies con muchas detecciones que pudieron estar dominando la señal acústica de un sitio. En el contexto de restauración, se esperó que con el tiempo los sitios intervenidos compartieran cada vez más especies con los sitios de referencia y que la composición de la comunidad tendiera a ser menos dependiente de pocas especies dominantes, reflejando una comunidad acústica más compleja y similar a la condición de referencia.</p>
+</article>
+</section>
+
+<section id="bibliografia" class="references">
+<h2>Bibliografía</h2>
+<ol>
+<li id="ref-campos-cerqueira-aide-2017">Campos-Cerqueira, M., &amp; Aide, T. M. (2017). Changes in the acoustic structure and composition along a tropical elevational gradient. <em>JEA</em>, 1, 1–1. <a href="https://doi.org/10.22261/JEA.PNCO7I" target="_blank" rel="noopener">https://doi.org/10.22261/JEA.PNCO7I</a></li>
+<li id="ref-furumo-aide-2019">Furumo, P. R., &amp; Aide, T. M. (2019). Using soundscapes to assess biodiversity in Neotropical oil palm landscapes. <em>Landscape Ecology</em>, 34, 911–923.</li>
+<li id="ref-kahl-2021">Kahl, S., Wood, C. M., Eibl, M., &amp; Klinck, H. (2021). BirdNET: A deep learning solution for avian diversity monitoring. <em>Ecological Informatics</em>, 61, 101236. <a href="https://doi.org/10.1016/j.ecoinf.2021.101236" target="_blank" rel="noopener">https://doi.org/10.1016/j.ecoinf.2021.101236</a></li>
+<li id="ref-mendoza-henao-2025">Mendoza-Henao, A. M., Martínez-Medina, D., Barona-Cortés, E., Pantoja-Sánchez, H. E., Ulloa, J. S., Restrepo, A., Venegas-Valencia, K., Pérez-Peña, S., Salamanca-Reyes, J. R., Martinez-Alvarado, D., Parrado, F., Estupiñan, E., Ospina, A. M., Herrera-Montes, M. I., &amp; Rodríguez-Posada, M. E. (2025). <em>Indicadores acústicos para la evaluación del impacto de ruido sobre la biodiversidad en Colombia</em>. Instituto Humboldt.</li>
+<li id="ref-ramesh-2023">Ramesh, V., Hariharan, P., Akshay, V. A., Choksi, P., Khanwilkar, S., DeFries, R., &amp; Robin, V. V. (2023). Using passive acoustic monitoring to examine the impacts of ecological restoration on faunal biodiversity in the Western Ghats. <em>Biological Conservation</em>, 282, 110071. <a href="https://doi.org/10.1016/j.biocon.2023.110071" target="_blank" rel="noopener">https://doi.org/10.1016/j.biocon.2023.110071</a></li>
+<li id="ref-sueur-farina-2015">Sueur, J., &amp; Farina, A. (2015). Ecoacoustics: The ecological investigation and interpretation of environmental sound. <em>Biosemiotics</em>, 8, 493–502. <a href="https://doi.org/10.1007/s12304-015-9248-x" target="_blank" rel="noopener">https://doi.org/10.1007/s12304-015-9248-x</a></li>
+</ol>
+</section>
+</main>
 </body>
-</html>
+</html> 
