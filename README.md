@@ -186,13 +186,11 @@
     </div>
     <p class="texto-inicio">Promovemos la preservación y protección del medio ambiente | Fomentamos una perspectiva territorial y de derechos, reconociendo la diversidad cultural y social | Impulsamos nuevas tecnologías para la gestión sostenible de la biodiversidad.</p>
     <br><br>
-    Consulta la documentación de la constitución de la fundación en el siguiente
-    <a href="https://drive.google.com/drive/folders/1gmGkQXU8qYQT8uymadvqtWr6sDMy5B5s?usp=sharing">ENLACE</a>
-    Consulta la documentación de la actualización como entidad sin ánimo de lucro para el año 2026 en el siguiente 
-    <a href="https://drive.google.com/drive/folders/11KOs2Nf9LFnCsuofu5O2_FurTIs1Ccqg?usp=sharing">ENLACE</a>
-    <br>
-    Consulta nuestro código de ética y nuestro manual de autocontrol y gestión del riesgo en el siguiente 
-    <a href="https://drive.google.com/drive/folders/1AWL1p2d6vEIVBh38Im3uOERwRrtf8AS0?usp=sharing">ENLACE</a>
+    <ul>
+      <li>Consulta la documentación de la constitución de la fundación en el siguiente <a href="https://drive.google.com/drive/folders/1gmGkQXU8qYQT8uymadvqtWr6sDMy5B5s?usp=sharing">ENLACE</a></li>
+      <li>Consulta la documentación de la actualización como entidad sin ánimo de lucro para el año 2026 en el siguiente <a href="https://drive.google.com/drive/folders/11KOs2Nf9LFnCsuofu5O2_FurTIs1Ccqg?usp=sharing">ENLACE</a></li>
+      <li>Consulta nuestro código de ética y nuestro manual de autocontrol y gestión del riesgo en el siguiente <a href="https://drive.google.com/drive/folders/1AWL1p2d6vEIVBh38Im3uOERwRrtf8AS0?usp=sharing">ENLACE</a></li>
+    </ul>
     <br>
     Queremos conocer tu opinión, deja tus comentarios 
     <a href="https://forms.gle/BLGUCDMGW3Qd51Xg9">AQUÍ</a>
