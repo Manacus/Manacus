@@ -138,10 +138,7 @@
                     </div>
                     <nav class="header-nav">
                         <!-- <a href="../services/">Investigación</a> -->
-                        <a href="https://manacus.github.io/Manacus/projects/">Proyectos</a>
-                        <a href="https://manacus.github.io/Manacus/tecnologia/">Tecnología</a>
-                        <a href="https://manacus.github.io/Manacus/quienes/">¿Quiénes somos?</a>
-                        <a href="https://manacus.github.io/Manacus/contacto/">Contacto</a>
+                        <a href="https://www.manacus.site/" target="_blank" rel="noopener">Página principal Manacus</a>
                     </nav>
                 </div>
         </header>
