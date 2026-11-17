@@ -1,6 +1,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="StWd0B-r52YYfce-ykcJZfxL-oWb9af7AhZ-_x0YrIo" />
   <title>Fundación Manacus</title>
   <style>
@@ -35,6 +36,13 @@
       --manacus-text: #1f3d2b;
       --manacus-muted: #eef7f1;
       --manacus-white: #ffffff;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    img, svg, video {
+      max-width: 100%;
+      height: auto;
     }
     .header-manacus {
       width: 100%;
@@ -102,25 +110,26 @@
       font-family: 'Manrope', sans-serif;
       margin: 0;
       padding: 0;
-      background: #ffffff;
+      background: linear-gradient(180deg, #f7fcf8 0%, #ffffff 40%);
       color: var(--manacus-text);
       line-height: 1.6;
+      overflow-x: hidden;
     }
 
     .seccion-destacada {
       background: rgba(255,255,255,0.9);
       border-radius: 22px;
-      padding: 1.4em 1.2em 1.6em;
+      padding: 1.8em 1.5em 1.9em;
       margin: 1.2em auto 0.5em;
+      width: min(1000px, calc(100% - 24px));
       box-shadow: 0 12px 35px rgba(13, 44, 72, 0.1);
-      max-width: 1000px;
       border: 1px solid rgba(47, 122, 82, 0.16);
     }
 
     .hero-callout {
       margin: 1.4em auto 1.6em;
-      max-width: 780px;
-      padding: 1.6em 1.2em;
+      max-width: 860px;
+      padding: clamp(1.2rem, 3vw, 2rem) clamp(1rem, 3.2vw, 2.2rem);
       background: linear-gradient(120deg, var(--manacus-primary), var(--manacus-secondary));
       border-radius: 18px;
       text-align: center;
@@ -142,18 +151,19 @@
     .hero-eyebrow {
       margin: 0;
       color: #e2f4e7;
-      font-size: 0.9em;
+      font-size: 0.86em;
       font-weight: 700;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
     }
 
     .hero-title {
       margin: 0.35em 0 0.45em;
       color: #f3fbf5;
-      font-size: 1.7em;
+      font-size: clamp(1.28rem, 3.1vw, 2rem);
       line-height: 1.2;
       font-weight: 800;
+      text-wrap: balance;
     }
 
     .hero-link {
@@ -168,6 +178,8 @@
       transition: transform 0.18s ease, box-shadow 0.18s ease;
       position: relative;
       z-index: 1;
+      min-width: 220px;
+      text-align: center;
     }
 
     .hero-link:hover {
@@ -177,11 +189,38 @@
 
     .hero-links {
       display: flex;
-      gap: 0.8em;
+      gap: 0.9em;
       justify-content: center;
       flex-wrap: wrap;
       position: relative;
       z-index: 1;
+    }
+
+    .brand-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .brand-logo {
+      max-width: 660px;
+      width: 100%;
+      height: auto;
+      display: block;
+      background: transparent;
+    }
+
+    .rec-logo {
+      max-width: 80px;
+      width: auto;
+      height: auto;
+      vertical-align: middle;
+      display: inline-block;
+      background: #f8fafd;
+      margin-left: 0.7em;
     }
 
     .footer-main {
@@ -194,18 +233,44 @@
       margin-top: 2em;
       box-shadow: 0 -1px 8px rgba(25,48,108,0.12);
       border-top: 1px solid rgba(22, 62, 95, 0.12);
+      overflow-wrap: anywhere;
     }
 
     @media (max-width: 900px) {
-      .hero-title { font-size: 1.4em; }
+      .header-content { padding: 0 1rem; }
       .seccion-destacada { border-radius: 16px; }
+      .hero-link { min-width: 180px; }
     }
 
     @media (max-width: 650px){
-        .hero-title { font-size: 1.22em; }
+      .header-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.7em;
+      }
+      .header-nav {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .header-nav a {
+        width: 100%;
+        text-align: center;
+      }
+      .seccion-destacada {
+        width: calc(100% - 12px);
+        padding: 0.95rem 0.75rem 1.1rem;
+        margin-top: 0.7rem;
+      }
       .hero-link { width: calc(100% - 0.8em); box-sizing: border-box; }
       .hero-links { width: 100%; }
+      .hero-callout { margin: 1rem auto 1.1rem; border-radius: 14px; }
+      .footer-rec { font-size: 1.08em; line-height: 1.45; }
+      .rec-logo { margin-left: 0.45em; max-width: 70px; }
+      .footer-main {
+        padding: 1rem 0.7rem;
+        font-size: 0.95em;
       }
+    }
   </style>
 </head>
 <body>
@@ -219,8 +284,8 @@
   </header>
   <!-- CONTENIDO PRINCIPAL SIGUIENTE -->
   <div class="seccion-destacada">
-    <div style="width:100%;display:flex;justify-content:center;align-items:center;margin-top:0.5em;margin-bottom:0.5em;">
-      <img src="src/MANACUS_BN_SIN_FONDO.png" alt="Logo Fundación Manacus" style="max-width:660px;width:100%;height:auto;display:block;background:transparent;">
+    <div class="brand-wrap">
+      <img src="src/MANACUS_BN_SIN_FONDO.png" alt="Logo Fundación Manacus" class="brand-logo">
     </div>
     <div class="hero-callout">
       <p class="hero-eyebrow">Fundación Manacus</p>
@@ -231,7 +296,7 @@
       </div>
     </div>
       <p class="footer-rec">Parte de la Red Ecoacústica Colombiana
-        <img src="src/logo_REC.png" alt="Logo REC" style="max-width:80px;width:auto;height:auto;vertical-align:middle;display:inline-block;background:#f8fafd;margin-left:0.7em;"></p>
+        <img src="src/logo_REC.png" alt="Logo REC" class="rec-logo"></p>
   </div>
   <footer class="footer-main">
   contacto@manacus.co | Cali, Valle del Cauca, Colombia | NIT: 901956753 | © 2025 Manacus

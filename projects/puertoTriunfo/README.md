@@ -32,12 +32,12 @@
         }
         header h1{ margin:0; color:var(--manacus-accent); font-size:1.5em; letter-spacing:-0.6px; }
         /* Contenedor principal con ancho limitado */
-    .container{ max-width:1200px; margin:24px auto; padding:0 18px; display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:20px; align-items:start; position:relative; isolation:isolate; }
+    .container{ width:100%; max-width:1200px; margin:24px auto; padding:0 18px; display:grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap:20px; align-items:start; position:relative; isolation:isolate; }
     /* Evita que los hijos del grid fuercen overflow horizontal */
     .container > *{ min-width:0; max-width:100%; }
         @media (max-width: 900px) {
             .container {
-                grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+                grid-template-columns: repeat(2,minmax(0,1fr));
                 gap:14px;
                 padding:0 8px;
             }
