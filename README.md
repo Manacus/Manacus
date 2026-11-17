@@ -175,6 +175,15 @@
       box-shadow: 0 12px 24px rgba(10, 25, 40, 0.3);
     }
 
+    .hero-links {
+      display: flex;
+      gap: 0.8em;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 1;
+    }
+
     .footer-main {
       width: 100%;
       background: linear-gradient(90deg, #f4faf6, #edf6f0);
@@ -194,7 +203,8 @@
 
     @media (max-width: 650px){
         .hero-title { font-size: 1.22em; }
-        .hero-link { width: calc(100% - 0.8em); box-sizing: border-box; }
+      .hero-link { width: calc(100% - 0.8em); box-sizing: border-box; }
+      .hero-links { width: 100%; }
       }
   </style>
 </head>
@@ -215,7 +225,10 @@
     <div class="hero-callout">
       <p class="hero-eyebrow">Fundación Manacus</p>
       <h1 class="hero-title">Conservación basada en evidencia, tecnología y territorio</h1>
-      <a class="hero-link" href="https://www.manacus.site/" target="_blank" rel="noopener">Visita nuestra página principal</a>
+      <div class="hero-links">
+        <a class="hero-link" href="https://www.manacus.site/" target="_blank" rel="noopener">Visita nuestra página principal</a>
+        <a class="hero-link" href="projects/puertoTriunfo/">Proyecto Puerto Triunfo</a>
+      </div>
     </div>
       <p class="footer-rec">Parte de la Red Ecoacústica Colombiana
         <img src="src/logo_REC.png" alt="Logo REC" style="max-width:80px;width:auto;height:auto;vertical-align:middle;display:inline-block;background:#f8fafd;margin-left:0.7em;"></p>
