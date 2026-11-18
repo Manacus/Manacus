@@ -200,7 +200,7 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
       <div class="card prose">
         <h2>Qué mide la PDC blindada</h2>
         <p>La <b>proporción de detecciones de hábitat cerrado (PDC)</b> responde a una pregunta directa: de todo lo que se escucha de las aves indicadoras en un sitio, ¿qué parte corresponde a especies de bosque? Va de <b>0</b> (solo se oyen especies de áreas abiertas) a <b>1</b> (solo especies de bosque). Es <b>blindada</b> porque está diseñada para que un solo individuo que canta sin parar cerca del grabador no domine el resultado.</p>
-        <p>Se calcula con las detecciones de BirdNET (confianza ≥ 0,6) en los días de muestreo estandarizados de cada sensor (10–12 días, 48 grabaciones de 1 minuto por día).</p>
+        <p>Se calcula con las detecciones de BirdNET (confianza ≥ 0,6) en los días de muestreo estandarizados de cada sensor (10–12 días, 48 grabaciones de 1 minuto cada media hora).</p>
       </div>
       <div class="card prose">
         <h2>Especies indicadoras</h2>
@@ -242,14 +242,6 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
         <h3>Por qué la versión blindada</h3>
         <p>Se compararon variantes del indicador inyectando picos artificiales de 200 a 1.000 detecciones de las especies abiertas más abundantes en cada referencia, y quitando una especie a la vez.</p>
         <div class="scroll"><table id="m-rob"></table></div>
-      </div>
-      <div class="card prose">
-        <h2>Limitaciones</h2>
-        <ul>
-          <li>Varias especies de bosque son poco detectables; con 10–12 días su ausencia no garantiza que no estén.</li>
-          <li><i>Ciccaba nigrolineata</i> no tiene detecciones y <i>Xenops minutus</i> solo dos en los datos depurados; conviene revisar la limpieza.</li>
-          <li>R-Piedechinche (BirdNET incompleto) y R-Porvenir Mora (sensor dañado) están excluidos.</li>
-        </ul>
       </div>
     </div>
     <div class="view" id="v-tabla">
