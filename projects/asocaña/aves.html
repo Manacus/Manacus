@@ -121,7 +121,6 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
       <a href="#rios">Por río</a>
       <a href="#composicion">Composición por sitio</a>
       <a href="#avance">Avance de intervenciones</a>
-      <a href="#entre-rios">Comparación entre ríos</a>
       <a href="#tabla">Tabla de sitios</a>
       <a href="#metodo">Cómo se calcula</a>
     </nav>
@@ -168,6 +167,12 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
       <div class="card"><h2>Brecha referencia ribereña − intervención (PDC blindada)</h2>
         <p class="hint">IC 95 % por bootstrap de sitios y p de permutación exacta dentro del río. Con una sola referencia ribereña no hay IC ni prueba.</p>
         <div class="scroll"><table id="t-brecha"></table></div></div>
+      <div class="card"><h2 id="t-heat">PDC blindada media por río y grupo</h2>
+        <p class="hint">Media del indicador seleccionado. Celdas vacías: el río no tiene sitios de ese grupo.</p>
+        <div id="p-heat" class="plot" style="min-height:300px"></div></div>
+      <div class="card"><h2 id="t-strip">Sitios por río, por grupo</h2>
+        <p class="hint">Útil para ver si las diferencias entre ríos se explican por el % de bosque (color).</p>
+        <div id="p-strip" class="plot" style="min-height:420px"></div></div>
     </div>
 
     <div class="view" id="v-composicion">
@@ -185,15 +190,6 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
       <div class="card"><h2>Avance de cada intervención hacia la meta</h2>
         <p class="hint" id="h-av"></p>
         <div id="p-av" class="plot"></div></div>
-    </div>
-
-    <div class="view" id="v-entre-rios">
-      <div class="card"><h2 id="t-heat">Media por río y grupo</h2>
-        <p class="hint">Media del indicador seleccionado. Celdas vacías: el río no tiene sitios de ese grupo.</p>
-        <div id="p-heat" class="plot" style="min-height:300px"></div></div>
-      <div class="card"><h2 id="t-strip">Sitios por río, por grupo</h2>
-        <p class="hint">Útil para ver si las diferencias entre ríos se explican por el % de bosque (color).</p>
-        <div id="p-strip" class="plot" style="min-height:420px"></div></div>
     </div>
 
     <div class="view" id="v-metodo">
@@ -379,6 +375,7 @@ function drawRios() {
     <td>${r.n_REF >= 2 && r.IC_lo > 0 ? '<span class="pill REF">IC &gt; 0</span>' : '<span class="pill conf">sin evidencia</span>'}</td></tr>`).join("");
   document.getElementById("t-brecha").innerHTML = `<thead><tr><th>Río</th><th class="num">Ref. ribereña (n)</th><th class="num">Intervención (n)</th>${st.grupos.has("PAR") ? '<th class="num">Parche (n)</th>' : ""}
     <th class="num">Brecha</th><th class="num">IC 95 %</th><th class="num">p exacta</th><th>Lectura</th></tr></thead><tbody>${rows}</tbody>`;
+  drawIba();
 }
 // ---------- vista 3 ----------
 function propSitio(s, mode) {
@@ -542,13 +539,13 @@ function ejemplo() {
     : "<p>Este sitio no tiene detecciones de las especies indicadoras.</p>";
 }
 // ---------- navegación ----------
-const VIEWS = ["relacion", "rios", "composicion", "avance", "entre-rios", "tabla", "metodo"];
+const VIEWS = ["relacion", "rios", "composicion", "avance", "tabla", "metodo"];
 function route() { const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "relacion";
   VIEWS.forEach(x => document.getElementById("v-" + x).classList.toggle("on", x === v));
   document.querySelectorAll("#tabs a").forEach(a => a.setAttribute("aria-current", a.getAttribute("href") === "#" + v ? "page" : "false"));
   const act = document.querySelector('#tabs a[aria-current="page"]'); document.getElementById("pagina").textContent = `${act.textContent.toUpperCase()} (página ${VIEWS.indexOf(v) + 1} de ${VIEWS.length})`;
   draw(v); }
-function draw(v) { ({relacion: drawRel, rios: drawRios, composicion: drawComp, avance: drawAv, "entre-rios": drawIba, tabla: drawTabla, metodo: drawMetodo})[v](); }
+function draw(v) { ({relacion: drawRel, rios: drawRios, composicion: drawComp, avance: drawAv, tabla: drawTabla, metodo: drawMetodo})[v](); }
 function render() { route(); if (!st.sel) ficha(); }
 window.addEventListener("hashchange", route);
 new MutationObserver(() => { route(); ficha(); }).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
