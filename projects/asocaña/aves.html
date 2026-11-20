@@ -136,11 +136,7 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
       <a href="#rios">Por río</a>
       <a href="#composicion">Composición por sitio</a>
       <a href="#avance">Avance de intervenciones</a>
-<<<<<<< HEAD
-      <a href="#entre-rios">Comparación entre ríos</a>
       <a href="#ocupacion">Ocupación de especies</a>
-=======
->>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
       <a href="#tabla">Tabla de sitios</a>
       <a href="#metodo">Cómo se calcula</a>
     </nav>
@@ -228,15 +224,9 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
 
     <div class="view" id="v-metodo">
       <div class="card prose">
-<<<<<<< HEAD
         <h2>Qué mide la PACC</h2>
         <p>La <b>Proporción de Aves de Cobertura Cerrada (PACC)</b> responde a una pregunta directa: de todo lo que se escucha de las aves indicadoras en un sitio, ¿qué parte corresponde a especies de bosque? Va de <b>0</b> (solo se oyen especies de áreas abiertas) a <b>1</b> (solo especies de bosque). Está <b>blindada contra picos de detección</b>: está diseñada para que un solo individuo que canta sin parar cerca del grabador no domine el resultado.</p>
         <p>Se calcula con las detecciones de BirdNET (confianza ≥ 0,6) en los días de muestreo estandarizados de cada sensor (10–12 días, 48 grabaciones de 1 minuto por día).</p>
-=======
-        <h2>Qué mide la PDC blindada</h2>
-        <p>La <b>proporción de detecciones de hábitat cerrado (PDC)</b> responde a una pregunta directa: de todo lo que se escucha de las aves indicadoras en un sitio, ¿qué parte corresponde a especies de bosque? Va de <b>0</b> (solo se oyen especies de áreas abiertas) a <b>1</b> (solo especies de bosque). Es <b>blindada</b> porque está diseñada para que un solo individuo que canta sin parar cerca del grabador no domine el resultado.</p>
-        <p>Se calcula con las detecciones de BirdNET (confianza ≥ 0,6) en los días de muestreo estandarizados de cada sensor (10–12 días, 48 grabaciones de 1 minuto cada media hora).</p>
->>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
       </div>
       <div class="card prose">
         <h2>Especies indicadoras</h2>
@@ -725,22 +715,14 @@ function drawOcupacion() {
   document.getElementById("t-occ").innerHTML = `<thead><tr><th>Especie</th><th>Grupo</th><th class="num">Sitios con detección</th><th class="num">p(det)</th><th class="num">OR</th><th class="num">IC 95 %</th><th class="num">p</th><th>Resultado</th></tr></thead><tbody>${filas}</tbody>`;
 }
 // ---------- navegación ----------
-<<<<<<< HEAD
-const VIEWS = ["especies", "relacion", "rios", "composicion", "avance", "entre-rios", "ocupacion", "tabla", "metodo"];
-=======
-const VIEWS = ["relacion", "rios", "composicion", "avance", "tabla", "metodo"];
->>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
+const VIEWS = ["especies", "relacion", "rios", "composicion", "avance", "ocupacion", "tabla", "metodo"];
 function route() { const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "relacion";
   VIEWS.forEach(x => document.getElementById("v-" + x).classList.toggle("on", x === v));
   document.querySelectorAll("#tabs a").forEach(a => a.setAttribute("aria-current", a.getAttribute("href") === "#" + v ? "page" : "false"));
   document.querySelector("main.grid").classList.toggle("full", ["especies", "ocupacion", "metodo"].includes(v));
   const act = document.querySelector('#tabs a[aria-current="page"]'); document.getElementById("pagina").textContent = `${act.textContent.toUpperCase()} (página ${VIEWS.indexOf(v) + 1} de ${VIEWS.length})`;
   draw(v); }
-<<<<<<< HEAD
-function draw(v) { ({relacion: drawRel, rios: drawRios, composicion: drawComp, avance: drawAv, "entre-rios": drawIba, tabla: drawTabla, metodo: drawMetodo, especies: drawEspecies, ocupacion: drawOcupacion})[v](); }
-=======
-function draw(v) { ({relacion: drawRel, rios: drawRios, composicion: drawComp, avance: drawAv, tabla: drawTabla, metodo: drawMetodo})[v](); }
->>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
+function draw(v) { ({relacion: drawRel, rios: drawRios, composicion: drawComp, avance: drawAv, tabla: drawTabla, metodo: drawMetodo, especies: drawEspecies, ocupacion: drawOcupacion})[v](); }
 function render() { route(); if (!st.sel) ficha(); }
 window.addEventListener("hashchange", route);
 new MutationObserver(() => { route(); ficha(); }).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
