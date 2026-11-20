@@ -136,8 +136,11 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
       <a href="#rios">Por río</a>
       <a href="#composicion">Composición por sitio</a>
       <a href="#avance">Avance de intervenciones</a>
+<<<<<<< HEAD
       <a href="#entre-rios">Comparación entre ríos</a>
       <a href="#ocupacion">Ocupación de especies</a>
+=======
+>>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
       <a href="#tabla">Tabla de sitios</a>
       <a href="#metodo">Cómo se calcula</a>
     </nav>
@@ -201,6 +204,9 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
       <div class="card"><h2>Brecha referencia ribereña − intervención (PACC)</h2>
         <p class="hint">IC 95 % por bootstrap de sitios y p de permutación exacta dentro del río. Con una sola referencia ribereña no hay IC ni prueba.</p>
         <div class="scroll"><table id="t-brecha"></table></div></div>
+      <div class="card"><h2 id="t-heat">PDC blindada media por río y grupo</h2>
+        <p class="hint">Media del indicador seleccionado. Celdas vacías: el río no tiene sitios de ese grupo.</p>
+        <div id="p-heat" class="plot" style="min-height:300px"></div></div>
     </div>
 
     <div class="view" id="v-composicion">
@@ -220,20 +226,17 @@ footer{color:var(--ink2);font-size:12px;padding:0 0 32px}
         <div id="p-av" class="plot"></div></div>
     </div>
 
-    <div class="view" id="v-entre-rios">
-      <div class="card"><h2 id="t-heat">Media por río y grupo</h2>
-        <p class="hint">Media del indicador seleccionado. Celdas vacías: el río no tiene sitios de ese grupo.</p>
-        <div id="p-heat" class="plot" style="min-height:300px"></div></div>
-      <div class="card"><h2 id="t-strip">Sitios por río, por grupo</h2>
-        <p class="hint">Útil para ver si las diferencias entre ríos se explican por el % de bosque (color).</p>
-        <div id="p-strip" class="plot" style="min-height:420px"></div></div>
-    </div>
-
     <div class="view" id="v-metodo">
       <div class="card prose">
+<<<<<<< HEAD
         <h2>Qué mide la PACC</h2>
         <p>La <b>Proporción de Aves de Cobertura Cerrada (PACC)</b> responde a una pregunta directa: de todo lo que se escucha de las aves indicadoras en un sitio, ¿qué parte corresponde a especies de bosque? Va de <b>0</b> (solo se oyen especies de áreas abiertas) a <b>1</b> (solo especies de bosque). Está <b>blindada contra picos de detección</b>: está diseñada para que un solo individuo que canta sin parar cerca del grabador no domine el resultado.</p>
         <p>Se calcula con las detecciones de BirdNET (confianza ≥ 0,6) en los días de muestreo estandarizados de cada sensor (10–12 días, 48 grabaciones de 1 minuto por día).</p>
+=======
+        <h2>Qué mide la PDC blindada</h2>
+        <p>La <b>proporción de detecciones de hábitat cerrado (PDC)</b> responde a una pregunta directa: de todo lo que se escucha de las aves indicadoras en un sitio, ¿qué parte corresponde a especies de bosque? Va de <b>0</b> (solo se oyen especies de áreas abiertas) a <b>1</b> (solo especies de bosque). Es <b>blindada</b> porque está diseñada para que un solo individuo que canta sin parar cerca del grabador no domine el resultado.</p>
+        <p>Se calcula con las detecciones de BirdNET (confianza ≥ 0,6) en los días de muestreo estandarizados de cada sensor (10–12 días, 48 grabaciones de 1 minuto cada media hora).</p>
+>>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
       </div>
       <div class="card prose">
         <h2>Especies indicadoras</h2>
@@ -492,6 +495,7 @@ function drawRios() {
     <td>${r.n_REF >= 2 && r.IC_lo > 0 ? '<span class="pill REF">IC &gt; 0</span>' : '<span class="pill conf">sin evidencia</span>'}</td></tr>`).join("");
   document.getElementById("t-brecha").innerHTML = `<thead><tr><th>Río</th><th class="num">Ref. ribereña (n)</th><th class="num">Intervención (n)</th>${st.grupos.has("PAR") ? '<th class="num">Parche (n)</th>' : ""}
     <th class="num">Brecha</th><th class="num">IC 95 %</th><th class="num">p exacta</th><th>Lectura</th></tr></thead><tbody>${rows}</tbody>`;
+  drawIba();
 }
 // ---------- vista 3 ----------
 function propSitio(s, mode) {
@@ -537,7 +541,6 @@ function drawAv() {
 function drawIba() {
   const m = st.metric, S = filt(), rs = RIOS.filter(r => st.rios.has(r)), gs = ["REF", "PAR", "INT"].filter(g => st.grupos.has(g));
   document.getElementById("t-heat").textContent = `${MN[m]} medio por río y grupo`;
-  document.getElementById("t-strip").textContent = `${MN[m]} de cada sitio por río`;
   const z = gs.map(g => rs.map(r => { const v = S.filter(s => s.rio === r && s.g === g && val(s) != null).map(val); return v.length ? v.reduce((a, b) => a + b) / v.length : null; }));
   const n = gs.map(g => rs.map(r => S.filter(s => s.rio === r && s.g === g).length));
   const div = m === "iba";
@@ -546,12 +549,6 @@ function drawIba() {
     text: z.map((row, i) => row.map((v, j) => v == null ? "" : `${fmt(v)}<br>n = ${n[i][j]}`)), texttemplate: "%{text}", hovertemplate: "%{y} · %{x}<br>media %{z:.2f}<extra></extra>",
     colorbar: {thickness: 10, tickfont: {color: css("--ink2")}}, xgap: 3, ygap: 3}],
     layoutBase({margin: {l: 140, r: 20, t: 10, b: 40}, yaxis: Object.assign(layoutBase().yaxis, {autorange: "reversed"})}), CFG);
-  const tr = gs.map((g, k) => { const x = S.filter(s => s.g === g && val(s) != null);
-    return {type: "scatter", mode: "markers", name: GN[g], x: x.map(s => s.rio), y: x.map(val), customdata: x.map(s => s.sitio), hovertemplate: x.map(hov),
-      offsetgroup: g, marker: {size: 12, color: x.map(s => bosqueColor(s.bosque)), line: {color: gcol(g), width: 2},
-        symbol: g === "INT" ? "triangle-up" : g === "PAR" ? "diamond" : "circle"}}; });
-  Plotly.react("p-strip", tr, layoutBase({scattermode: "group", xaxis: Object.assign(layoutBase().xaxis, {categoryorder: "array", categoryarray: rs}),
-    yaxis: Object.assign(layoutBase().yaxis, {title: {text: MN[m]}})}), CFG).then(bindClick);
 }
 // ---------- vista 6 ----------
 const COLS = [["rio", "Río"], ["sitio", "Sitio"], ["g", "Grupo"], ["bosque", "% bosque"], ["dias", "Días"], ["det", "Detecciones"], ["sc", "Spp. cerrado"],
@@ -728,14 +725,22 @@ function drawOcupacion() {
   document.getElementById("t-occ").innerHTML = `<thead><tr><th>Especie</th><th>Grupo</th><th class="num">Sitios con detección</th><th class="num">p(det)</th><th class="num">OR</th><th class="num">IC 95 %</th><th class="num">p</th><th>Resultado</th></tr></thead><tbody>${filas}</tbody>`;
 }
 // ---------- navegación ----------
+<<<<<<< HEAD
 const VIEWS = ["especies", "relacion", "rios", "composicion", "avance", "entre-rios", "ocupacion", "tabla", "metodo"];
+=======
+const VIEWS = ["relacion", "rios", "composicion", "avance", "tabla", "metodo"];
+>>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
 function route() { const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "relacion";
   VIEWS.forEach(x => document.getElementById("v-" + x).classList.toggle("on", x === v));
   document.querySelectorAll("#tabs a").forEach(a => a.setAttribute("aria-current", a.getAttribute("href") === "#" + v ? "page" : "false"));
   document.querySelector("main.grid").classList.toggle("full", ["especies", "ocupacion", "metodo"].includes(v));
   const act = document.querySelector('#tabs a[aria-current="page"]'); document.getElementById("pagina").textContent = `${act.textContent.toUpperCase()} (página ${VIEWS.indexOf(v) + 1} de ${VIEWS.length})`;
   draw(v); }
+<<<<<<< HEAD
 function draw(v) { ({relacion: drawRel, rios: drawRios, composicion: drawComp, avance: drawAv, "entre-rios": drawIba, tabla: drawTabla, metodo: drawMetodo, especies: drawEspecies, ocupacion: drawOcupacion})[v](); }
+=======
+function draw(v) { ({relacion: drawRel, rios: drawRios, composicion: drawComp, avance: drawAv, tabla: drawTabla, metodo: drawMetodo})[v](); }
+>>>>>>> 4f7c699e88c8e4e0d4c707f25056c5cda3ef83c7
 function render() { route(); if (!st.sel) ficha(); }
 window.addEventListener("hashchange", route);
 new MutationObserver(() => { route(); ficha(); }).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
